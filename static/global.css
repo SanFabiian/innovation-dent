@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+:root {
+	--blue: #1f3d59;
+	--green: #61b9be;
+	--yellow: #ffc933;
+	--white: #FFF;
+	--font-yellowtail: 'Yellowtail', cursive;
+	--font-maven: 'Maven Pro', sans-serif;
+	--size-text: 1.6rem;
+}
+.d-none {
+	display: none;
+}
