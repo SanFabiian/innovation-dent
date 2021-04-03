@@ -5,21 +5,23 @@
 	import logo from '@static/logo-blanco.svg'
     let open = false
 </script>
+
+<header>
+	<a href="/">
+        <img src="{logo}" alt="Logo innovation dent" class="logo">
+    </a>
+    <Sitebar bind:open/>
+    <Nav {segment} bind:navOpen={open}/>
+</header>
 <style>
     header {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
         display: flex;
-        background: transparent;
+        background: var(--green);
     }
 	.logo {
 		width: 100px;
 	}
+    a {
+        padding: 5px;
+    }
 </style>
-<header>
-	<a aria-current="{segment === undefined ? 'page' : undefined}" href="."><img src="{logo}" alt="Logo innovation dent" class="logo"></a>
-    <Sitebar bind:open/>
-    <Nav {segment} bind:navOpen={open}/>
-</header>

@@ -1,6 +1,8 @@
 <script>
 	import foto600 from '@static/foto-principal600.jpg'
 	import Services from '@components/Services.svelte'
+	import CarouselBlog from '@components/CarouselBlog.svelte'
+	import Experiences from '../components/Experiences.svelte'
 </script>
 
 <style>
@@ -17,3 +19,5 @@
 	<img src="{foto600}" alt="">
 </div>
 <Services />
+<CarouselBlog />
+<Experiences />

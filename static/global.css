@@ -11,10 +11,42 @@ html {
 	--green: #61b9be;
 	--yellow: #ffc933;
 	--white: #FFF;
+	--grey-bg: #F5f5f5;
 	--font-yellowtail: 'Yellowtail', cursive;
 	--font-maven: 'Maven Pro', sans-serif;
+	--size-title: 2.5rem;
+	--size-subtitle: 2.0rem;
 	--size-text: 1.6rem;
+	--size-mintext: 1.3rem;
+	--gap: 15px;
+}
+h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
+	font-family: var(--font-maven);
+}
+.title {
+	color: var(--blue);
+	font-family: var(--font-yellowtail);
+	font-size: 6rem;
+	text-align: center;
+}
+.subtitle {
+	color: var(--green);
+	font-family: var(--font-maven);
 }
 .d-none {
 	display: none;
+}
+.btn-primary {
+	display: block;
+	min-width: 120px;
+	max-width: 200px;
+	padding: 5px;
+	margin: 10px 0;
+	background: var(--yellow);
+	color: var(--white);
+	border: solid 1px var(--yellow);
+	border-radius: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-family: var(--font-maven);
 }

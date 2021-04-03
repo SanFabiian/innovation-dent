@@ -9,8 +9,10 @@ const dev = mode === 'development';
 
 const alias = {
 	svelte: path.resolve('node_modules', 'svelte'),
-	'@static': path.resolve(__dirname, 'static'),
-	'@components': path.resolve(__dirname, 'src/components')
+	'@static': path.resolve(__dirname, 'static/'),
+	'@components': path.resolve(__dirname, 'src/components/'),
+	'@utils': path.resolve(__dirname, 'src/Utils/'),
+	'@post' :path.resolve(__dirname, 'src/routes/blog/')
 };
 const extensions = ['.mjs', '.js', '.json', '.svelte', '.html'];
 const mainFields = ['svelte', 'module', 'browser', 'main'];

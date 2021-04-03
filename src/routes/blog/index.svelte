@@ -7,28 +7,55 @@
 </script>
 
 <script>
+	import CardBlog from '@components/CardBlog.svelte'
 	export let posts;
-</script>
-
-<style>
-	ul {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
+	let pageNum = 1
+	let pageSize = 6
+	let pageCount = Math.ceil(posts.length / pageSize)
+	let pagination
+	function paginate(array, pageSize, pageNum) {
+		return array.slice((pageNum - 1) * pageSize, pageNum * pageSize)
 	}
-</style>
+	const nextPage = () => {
+		pageNum++
+		showPagination()
+	}
+	const prevPage = () => {
+		pageNum--
+		showPagination()
+	}
+	function showPagination() {
+		return pagination = paginate(posts, pageSize, pageNum)
+	}
+	showPagination()
+	
+</script>
 
 <svelte:head>
 	<title>Blog</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1 class="title">Blog</h1>
 
-<ul>
-	{#each posts as post}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-		<li><a rel="prefetch" href="blog/{post.slug}">{post.title}</a></li>
-	{/each}
-</ul>
+{#each pagination as page}
+	<CardBlog
+		image={page.image}
+		tag={page.tag}
+		date={page.createdAt}
+		title={page.title}
+		slug={page.slug}
+	/>
+{/each}
+{#if pageNum > 1}
+	<button on:click={prevPage}>Prev</button>
+{/if}
+{#if pageNum < pageCount}
+	<button on:click={nextPage}>Next</button>
+{/if}
+
+<style>
+	h1 {
+		color: var(--yellow);
+		font-family: var(--font-yellowtail);
+	}
+</style>
