@@ -1,5 +1,4 @@
 <script>
-	import logo from '@static/logo-blanco.svg'
 	import linksNav from '@utils/linksNav.js'
     export let segment;
 	export let open = false
@@ -10,9 +9,6 @@
 </script>
 
 <nav class:open>
-	<div class="nav-header">
-		<a aria-current="{segment === undefined ? 'page' : undefined}" href="/"class="logo"on:click={btnOpen}><img src="{logo}" alt="Logo innovation dent"></a>
-	</div>
 	<ul>
 		{#each linksNav as route}
 			<li>
@@ -27,12 +23,6 @@
 	</ul>
 </nav>
 <style>
-    .nav-header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 0 15px;
-	}
 	ul {
 		text-align: right;
 	}
@@ -51,17 +41,15 @@
 	}
 	nav {
 		position: absolute;
+		top: 65px;
 		width: 100%;
 		height: 100vh;
 		background: var(--green);
-		left: -100%;
-		transition: left 0.3s ease-in-out;
+		right: -100%;
+		transition: right 0.3s ease-in-out;
 		z-index: 1;
 	}
-	img {
-		height: 50px;
-	}
 	.open {
-		left: 0
+		right: 0;
 	}
 </style>

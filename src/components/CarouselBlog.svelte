@@ -12,16 +12,14 @@
     </div>
     <div class="carousel-items-wrap">
         {#each posts as post, i}
-            {i++}
-            <CardBlog
+            {#if i < 3 }
+                <CardBlog
                 image={post.image}
                 tag={post.tag}
                 date={post.createdAt}
                 title={post.title}
                 slug={post.slug}
-            />
-            {#if i ===3 }
-                break
+                />
             {/if}
         {/each}
     </div>

@@ -11,7 +11,9 @@ html {
 	--green: #61b9be;
 	--yellow: #ffc933;
 	--white: #FFF;
+	--grey: #888888;
 	--grey-bg: #F5f5f5;
+	--color-text: #464646;
 	--font-yellowtail: 'Yellowtail', cursive;
 	--font-maven: 'Maven Pro', sans-serif;
 	--size-title: 2.5rem;
@@ -49,4 +51,62 @@ h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 	text-align: center;
 	text-decoration: none;
 	font-family: var(--font-maven);
+}
+main {
+	margin-top: 65px;
+}
+
+h1 {
+	padding: 20px;
+	padding-bottom: 0;
+	color: var(--blue);
+	font-size: var(--font-maven);
+	font-size: var(--size-title);
+}
+.content {
+	padding: 0 20px;
+	margin-bottom: 10px;
+}
+.content h2 {
+	color: var(--blue);
+	font-size: var(--size-subtitle);
+	margin: 15px 0;
+}
+.content h3 {
+	color: var(--blue);
+	font-size: var(--size-text);
+	margin: 10px 0;
+}
+.content p {
+	font-size: var(--size-text);
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.content strong {
+	font-size: var(--size-text);
+}
+.content ul {
+	margin-left: 30px;
+}
+.content li {
+	font-size: var(--size-text);
+}
+.btn-go-back {
+	position: fixed;
+	top: 75px;
+	left: 10px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: #61b9be85;
+	color: var(--white);
+	font-size: 30px;
+}
+div.ortodoncia {
+    display: block;
+    padding: 2px 5px;
+    border-radius: 23px;
+	background: #C5E9FF;
+    color: #5095FA;
 }

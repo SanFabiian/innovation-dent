@@ -9,6 +9,9 @@
 			this.error(res.status, data.message);
 		}
 	}
+	function goBack() {
+		history.go(-1)
+	}
 </script>
 
 <script>
@@ -19,8 +22,13 @@
 	<title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
 
 <div class="content">
+	<button
+		type="button"
+		class="btn-go-back"
+		on:click={goBack}>&#8249;&#8249;
+	</button>
+	<h1>{post.title}</h1>
 	{@html post.html}
 </div>

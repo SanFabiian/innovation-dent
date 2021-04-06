@@ -10,9 +10,9 @@
 	import CardBlog from '@components/CardBlog.svelte'
 	export let posts;
 	let pageNum = 1
-	let pageSize = 6
-	let pageCount = Math.ceil(posts.length / pageSize)
-	let pagination
+	const pageSize = 2
+	const pageCount = Math.ceil(posts.length / pageSize)
+	let pagination;
 	function paginate(array, pageSize, pageNum) {
 		return array.slice((pageNum - 1) * pageSize, pageNum * pageSize)
 	}
@@ -27,8 +27,7 @@
 	function showPagination() {
 		return pagination = paginate(posts, pageSize, pageNum)
 	}
-	showPagination()
-	
+	showPagination(pageNum)
 </script>
 
 <svelte:head>
@@ -36,7 +35,6 @@
 </svelte:head>
 
 <h1 class="title">Blog</h1>
-
 {#each pagination as page}
 	<CardBlog
 		image={page.image}
@@ -46,16 +44,46 @@
 		slug={page.slug}
 	/>
 {/each}
-{#if pageNum > 1}
-	<button on:click={prevPage}>Prev</button>
+{#if pageCount > 1}
+<div class="pagination">
+	<button
+		class="btn-primary"
+		type="button"
+		on:click={prevPage}
+		disabled={pageNum === 1 ? true : false}
+	>Prev
+	</button>
+	<button
+		class="btn-primary"
+		type="button"
+		on:click={nextPage}
+		disabled={pageNum === pageCount ? true : false}
+		>Next
+	</button>
+</div>
+<h6>Página {pageNum} de {pageCount}</h6>
 {/if}
-{#if pageNum < pageCount}
-	<button on:click={nextPage}>Next</button>
-{/if}
-
 <style>
 	h1 {
 		color: var(--yellow);
 		font-family: var(--font-yellowtail);
+		margin-bottom: 20px;
+	}
+	.pagination {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 20px;
+	}
+	button[disabled] {
+		background: transparent;
+		color: var(--yellow);
+	}
+	h6 {
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		font-size: var(--size-mintext);
+		color: var(--grey);
 	}
 </style>
