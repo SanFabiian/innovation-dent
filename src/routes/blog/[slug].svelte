@@ -15,6 +15,7 @@
 </script>
 
 <script>
+	import leftArrow from '@static/arrow-left.svg'
 	export let post;
 </script>
 
@@ -27,7 +28,8 @@
 	<button
 		type="button"
 		class="btn-go-back"
-		on:click={goBack}>&#8249;&#8249;
+		on:click={goBack}>
+		<img src="{leftArrow}" alt="icono flecha a la izquierda">
 	</button>
 	<h1>{post.title}</h1>
 	{@html post.html}

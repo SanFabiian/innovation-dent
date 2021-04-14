@@ -1,5 +1,5 @@
 const routesNavigation = [
-    {name: 'Nuestros Servicios',route: 'servicios'},
+    {name: 'Especialidades',route: 'especialidades'},
     {name: 'Blog', route: 'blog'},
     {name: 'Experiencias', route: 'experiencias',},
     {name: 'Nosotros', route: 'nosotros'},

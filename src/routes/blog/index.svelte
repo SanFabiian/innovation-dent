@@ -10,7 +10,7 @@
 	import CardBlog from '@components/CardBlog.svelte'
 	export let posts;
 	let pageNum = 1
-	const pageSize = 2
+	const pageSize = 5
 	const pageCount = Math.ceil(posts.length / pageSize)
 	let pagination;
 	function paginate(array, pageSize, pageNum) {
@@ -34,41 +34,39 @@
 	<title>Blog</title>
 </svelte:head>
 
-<h1 class="title">Blog</h1>
-{#each pagination as page}
-	<CardBlog
-		image={page.image}
-		tag={page.tag}
-		date={page.createdAt}
-		title={page.title}
-		slug={page.slug}
-	/>
-{/each}
-{#if pageCount > 1}
-<div class="pagination">
-	<button
-		class="btn-primary"
-		type="button"
-		on:click={prevPage}
-		disabled={pageNum === 1 ? true : false}
-	>Prev
-	</button>
-	<button
-		class="btn-primary"
-		type="button"
-		on:click={nextPage}
-		disabled={pageNum === pageCount ? true : false}
-		>Next
-	</button>
-</div>
-<h6>Página {pageNum} de {pageCount}</h6>
-{/if}
+<section class="content">
+	<h1>Blog</h1>
+	<p>Acá encontraras toda nuestra experiencia sobre todo lo relacionado con el cuidado de tu boca.</p>
+	{#each pagination as page}
+		<CardBlog
+			image={page.image}
+			tag={page.tag}
+			date={page.createdAt}
+			title={page.title}
+			slug={page.slug}
+		/>
+	{/each}
+	{#if pageCount > 1}
+	<div class="pagination">
+		<button
+			class="btn-primary"
+			type="button"
+			on:click={prevPage}
+			disabled={pageNum === 1 ? true : false}
+		>Volver
+		</button>
+		<button
+			class="btn-primary"
+			type="button"
+			on:click={nextPage}
+			disabled={pageNum === pageCount ? true : false}
+			>Siguiente
+		</button>
+	</div>
+	<h6>Página {pageNum} de {pageCount}</h6>
+	{/if}
+</section>
 <style>
-	h1 {
-		color: var(--yellow);
-		font-family: var(--font-yellowtail);
-		margin-bottom: 20px;
-	}
 	.pagination {
 		display: flex;
 		align-items: center;

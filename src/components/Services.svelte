@@ -11,22 +11,6 @@
         <img src="{icon_ortodoncia}" alt="">
         <h2>Ortodoncia</h2>
     </a>
-    <a href="/">
-        <img src="{icon_ortodoncia}" alt="">
-        <h2>Ortodoncia</h2>
-    </a>
-    <a href="/">
-        <img src="{icon_ortodoncia}" alt="">
-        <h2>Ortodoncia</h2>
-    </a>
-    <a href="/">
-        <img src="{icon_ortodoncia}" alt="">
-        <h2>Ortodoncia</h2>
-    </a>
-    <a href="/">
-        <img src="{icon_ortodoncia}" alt="">
-        <h2>Ortodoncia</h2>
-    </a>
 </section>
 
 <style>

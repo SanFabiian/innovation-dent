@@ -59,34 +59,47 @@ main {
 h1 {
 	padding: 20px;
 	padding-bottom: 0;
-	color: var(--blue);
-	font-size: var(--font-maven);
-	font-size: var(--size-title);
+	color: var(--yellow);
+	font-family: var(--font-yellowtail);
+	font-size: calc(var(--size-title) * 2);
+	text-align: center;
 }
 .content {
-	padding: 0 20px;
-	margin-bottom: 10px;
+	display: grid;
+    gap: 10px;
+	padding-bottom: 30px;
+}
+.kg-width-full {
+	grid-row: 1;
 }
 .content h2 {
 	color: var(--blue);
-	font-size: var(--size-subtitle);
+	font-size: var(--size-title);
 	margin: 15px 0;
+	padding: 0 20px;
 }
 .content h3 {
 	color: var(--blue);
+	font-size: var(--size-subtitle);
+	margin: 10px 0;
+	padding: 0 20px;
+}
+.content h4 {
+	color: var(--blue);
 	font-size: var(--size-text);
 	margin: 10px 0;
+	padding: 0 20px;
 }
 .content p {
 	font-size: var(--size-text);
-	margin-bottom: 10px;
-	margin-left: 10px;
+	padding: 0 20px;
 }
 .content strong {
 	font-size: var(--size-text);
 }
 .content ul {
 	margin-left: 30px;
+	padding: 0 20px;
 }
 .content li {
 	font-size: var(--size-text);
@@ -95,18 +108,56 @@ h1 {
 	position: fixed;
 	top: 75px;
 	left: 10px;
-	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
+	border: none;
 	background: #61b9be85;
 	color: var(--white);
 	font-size: 30px;
 }
-div.ortodoncia {
+.btn-go-back img {
+	height: 70%;
+}
+.tag {
     display: block;
     padding: 2px 5px;
     border-radius: 23px;
+	font-size: 14px;
+}
+.ortodoncia {
 	background: #C5E9FF;
     color: #5095FA;
+}
+.estetica {
+	background: #d8f5ab;
+    color: #94a776;
+}
+.cuidados {
+	background: #d1c5fc;
+    color: #6b618d;
+}
+.content figure img {
+width: 100%;
+}
+figure {
+	position: relative;
+}
+figcaption {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 5px 10px;
+	font-family: var(--font-maven);
+	font-size: 10px;
+	color: var(--green);
+	background: rgba(255 255 255 / .5);
+}
+.carousel-items-wrap figure {
+	height: 180px;
+	overflow: hidden;
 }

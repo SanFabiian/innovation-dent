@@ -5,14 +5,16 @@
     export let date
     export let title
     export let slug
-    const tags = tag.map(t => `<div class="${t.slug}">${t.name}</div>`).join('')
+    const tags = tag.map(t => `<div class="tag ${t.slug}">${t.name}</div>`).join('')
 </script>
 <article class="carousel-item">
-    <img src="{image}" alt="">
+    <figure>
+        <img src="{image}" alt="{title}">
+    </figure>
     <a class="carousel-item-desc" rel="prefetch" href="blog/{slug}">
         <div class="carousel-item-title">
-            <p>{@html tags}</p>
-            <time datatime={date}>😁 {formatIsoTime(date)}</time>
+            {@html tags}
+            <time datatime={date}>📆 {formatIsoTime(date)}</time>
         </div>
         <h2 class="subtitle">{title}</h2>
     </a>
@@ -22,10 +24,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    .carousel-item-title p {
-        font-size: var(--size-mintext);
-        text-transform: capitalize;
     }
     .carousel-item {
         position: relative;
@@ -51,6 +49,9 @@
         border-radius: 0 0 1rem 1rem;
         box-shadow: 0 2px 4px rgba(0 0 0 /  10%);
         text-decoration: none;
+    }
+    .subtitle {
+        font-size: 2rem;
     }
     time {
         font-size: var(--size-mintext);
