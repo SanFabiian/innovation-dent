@@ -52,4 +52,16 @@
 	.open {
 		right: 0;
 	}
+	@media (min-width: 768px) {
+		nav {
+			position: initial;
+			height: 65px;
+		}
+		nav ul {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			height: 100%;
+		}
+	}
 </style>

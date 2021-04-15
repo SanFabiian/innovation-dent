@@ -52,4 +52,9 @@
   .open #bottom {
 		transform: translate(-12px, 9px) rotate(-45deg)
 	}
+	@media (min-width: 768px) {
+		button {
+			display: none;
+		}
+	}
 </style>

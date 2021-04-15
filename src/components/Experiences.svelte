@@ -38,6 +38,7 @@
 <style>
     .experiences-wrap {
         display: flex;
+        justify-content: center;
         gap: var(--gap);
         padding: 15px;
         overflow-x: scroll;
@@ -50,7 +51,8 @@
         display: flex;
         align-items: center;
         gap: var(--gap);
-        min-width: 90%;
+        min-width: 300px;
+        max-width: 320px;
     }
     .experiences-item > div {
         padding: 20px 0;
@@ -65,5 +67,11 @@
     }
     p {
         font-size: var(--size-text);
+    }
+    @media (min-width: 768px) {
+        .experiences-wrap {
+            overflow: initial;
+            flex-wrap: wrap;
+        }
     }
 </style>

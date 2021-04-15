@@ -1,8 +1,8 @@
 <script>
-    export let segment;
-	import Nav from '@components/Nav.svelte';
+    import Nav from '@components/Nav.svelte';
 	import Sitebar from '@components/Sitebar.svelte';
 	import logo from '@static/logo-blanco.svg'
+    export let segment;
     let open = false
 
 </script>

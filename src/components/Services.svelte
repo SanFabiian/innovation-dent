@@ -28,6 +28,6 @@
         text-decoration: none;
     }
     img {
-        width: 80%;
+        width: 150px;
     }
 </style>

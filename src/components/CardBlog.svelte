@@ -32,7 +32,8 @@
         margin: 0 auto;
         padding-bottom: 60px;
         max-width: 320px;
-        min-width: 90%;
+        min-width: 300px;
+        grid-row: span 3;
     }
     .carousel-item img {
         width: 100%;
@@ -55,5 +56,9 @@
     }
     time {
         font-size: var(--size-mintext);
+    }
+    figure {
+        height: 180px;
+        overflow: hidden;
     }
 </style>
