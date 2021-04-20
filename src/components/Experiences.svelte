@@ -1,15 +1,10 @@
 <script>
     import foto from '@static/experiences-img.png'
     import comillas from '@static/comillas.png'
-    import Carousel from '@beyonk/svelte-carousel'
 </script>
 
 <h2 class="title">Experiencias</h2>
-<Carousel
-    perPage={{ 800: 3, 500: 2}}
-    autoplay={3500}
-    easing={'cubic-bezier(.1,.44,.77,.5)'}
->
+<section class="experiences-wrap">
     <article class="experiences-item">
         <img src="{foto}" alt="">
         <div>
@@ -38,17 +33,25 @@
             <p style="background-image: url('{comillas}');">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
     </article>
-
-</Carousel>
+</section>
 
 <style>
+    .experiences-wrap {
+        display: flex;
+        gap: var(--gap);
+        padding: 15px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+    }
     .experiences-item {
+        scroll-snap-align: center;
         display: flex;
         align-items: center;
         gap: var(--gap);
         min-width: 300px;
         max-width: 320px;
-        padding: 0 15px;
     }
     .experiences-item > div {
         padding: 20px 0;
@@ -63,5 +66,11 @@
     }
     p {
         font-size: var(--size-text);
+    }
+    @media (min-width: 768px) {
+        .experiences-wrap {
+            overflow: initial;
+            flex-wrap: wrap;
+        }
     }
 </style>

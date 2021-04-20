@@ -17,7 +17,6 @@
     "sirv": "^1.0.0"
   },
   "devDependencies": {
-    "@beyonk/svelte-carousel": "^2.8.0",
     "file-loader": "^6.0.0",
     "sapper": "^0.28.0",
     "svelte": "^3.17.3",
