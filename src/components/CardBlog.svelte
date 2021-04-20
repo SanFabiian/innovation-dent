@@ -20,11 +20,6 @@
     </a>
 </article>
 <style>
-    .carousel-item-title {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
     .carousel-item {
         position: relative;
         scroll-snap-align: center;
@@ -34,6 +29,11 @@
         max-width: 320px;
         min-width: 300px;
         grid-row: span 3;
+    }
+    .carousel-item-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .carousel-item img {
         width: 100%;
