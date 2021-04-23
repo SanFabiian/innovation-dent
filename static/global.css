@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 	color: var(--blue);
 	font-family: var(--font-yellowtail);
 	font-size: 6rem;
+	font-weight: normal;
 	text-align: center;
 }
 .subtitle {
@@ -38,32 +39,37 @@ h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 .d-none {
 	display: none;
 }
-.btn-primary {
+.btn {
 	display: block;
 	min-width: 120px;
 	max-width: 200px;
 	padding: 5px;
 	margin: 10px 0;
+	border-radius: 30px;
+	font-size: 16px;
+	font-family: var(--font-maven);
+	text-align: center;
+	text-decoration: none;
+}
+.btn-primary {
 	background: var(--yellow);
 	color: var(--white);
 	border: solid 1px var(--yellow);
-	border-radius: 30px;
-	font-size: 16px;
-	text-align: center;
-	text-decoration: none;
-	font-family: var(--font-maven);
 }
 main {
 	margin-top: 65px;
 }
 
 h1 {
+	margin-bottom: 10px;
 	padding: 20px;
 	padding-bottom: 0;
 	color: var(--yellow);
 	font-family: var(--font-yellowtail);
 	font-size: calc(var(--size-title) * 2);
+	font-weight: normal;
 	text-align: center;
+	line-height: 35px;
 }
 .content {
 	padding-bottom: 30px;

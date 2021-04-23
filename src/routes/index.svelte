@@ -7,7 +7,7 @@
 
 <svelte:head>
 	<title>Innovation Dent</title>
-	<meta name="description" content="Sitio oficial de Innovation Dent">
+	<meta name="description" content="Sitio oficial de Innovation Dent, encontraras toda la info relacionada con el cuidado de tu boca, mejorar tu estetica dental y mucho más">
 	<meta name="robots" content="index, follow">
 
 	<meta name="og:title" content="Innovation Dent Oficial" />

@@ -7,7 +7,7 @@
         <h1 class="title">Blog</h1>
         <div class="carousel-title">
             <p>Acá encontraras todo lo relacionado con el cuidado de tus dientes.</p>
-            <a href="/blog" class="btn-primary">Ver Más</a>
+            <a href="/blog" class="btn btn-primary">Ver Más</a>
         </div>
     </div>
     <div class="carousel-items-wrap">

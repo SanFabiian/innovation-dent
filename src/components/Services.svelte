@@ -45,6 +45,9 @@
     img {
         width: 150px;
     }
+    h2 {
+        font-size: var(--size-subtitle);
+    }
     @media (min-width: 768px) {
         section {
             grid-template-columns: repeat(4, 1fr);

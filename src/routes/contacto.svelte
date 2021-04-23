@@ -14,5 +14,28 @@
 </svelte:head>
 
 <section class="content contact">
-    <h2>Este es el contacto </h2>
+	<form action="" id="form" class="form">
+		<h1>Contáctanos</h1>
+		<label for="name">Nombre</label>
+		<input name="name" type="text" id="name" placeholder="Tu nombre" required/>
+		<label for="email">Correo</label>
+		<input name="email" type="email" id="email" placeholder="Tu correo" required/>
+		<label for="message">Mensaje</label>
+		<textarea  name="message" id="message" cols="30" rows="10"></textarea>
+		<button type="submit" class="btn btn-primary">Enviar</button>
+	</form>
 </section>
+
+<style>
+	.contact {
+		padding: 20px;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+	}
+	label {
+		font-family: var(--font-maven);
+		font-size: var(--size-text);
+	}
+</style>

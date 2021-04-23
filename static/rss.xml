@@ -1,0 +1,87 @@
+
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <rss version="2.0">
+        <channel>
+            <title><![CDATA[Innovation Dent]]></title>
+            <description><[!CDATA[Sitio oficial de Innovation Dent, encontraras toda la info relacionada con el cuidado de tu boca, mejorar tu estetica dental y mucho más]]></description>
+            <image>
+                <url>favicon.jpg</url>
+                <title>
+                    <![CDATA[Innovation Dent]]>
+                </title>
+                <link>https://innovationdent.com]]</link>
+            </image>
+            <generator>
+                Innovation Dent
+            </generator>
+            <lastBuildDate>
+                Fri, 23 Apr 2021 02:15:51 GMT
+            </lastBuildDate
+            <atom:link href="https://innovationdent.com/rss.xml" rel="self" type="application/rss+xml" />
+            <ttl>60</ttl>
+            <link><![CDATA[https://innovationdent.com]]></link>
+            <description>Free web building tutorials</description>
+            
+            <item>
+                <title><![CDATA[Endodoncia]]></title>
+                <link>https://innovationdent.com/blog/endodoncia</link>
+                <description><![CDATA[null]]></description>
+                <category><![CDATA[[object Object]]]></category>
+                <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
+                <upDate>
+                    Wed, 14 Apr 2021 17:38:22 GMT
+                </upDate>
+                <media:content url="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/Cover.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[<figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIyfHxkZW50YWx8ZW58MHx8fHwxNjE4NDIxNTE2&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" class="kg-image" alt="Dr. Yonca Sungur" srcset="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIyfHxkZW50YWx8ZW58MHx8fHwxNjE4NDIxNTE2&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=600 600w, https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIyfHxkZW50YWx8ZW58MHx8fHwxNjE4NDIxNTE2&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1000 1000w, https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIyfHxkZW50YWx8ZW58MHx8fHwxNjE4NDIxNTE2&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1600 1600w, https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIyfHxkZW50YWx8ZW58MHx8fHwxNjE4NDIxNTE2&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2400 2400w" sizes="(min-width: 720px) 720px"><figcaption>Photo by <a href="https://unsplash.com/@yusuf_belek?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Yusuf Belek</a> / <a href="https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Unsplash</a></figcaption></figure><p>Es la especialidad de la odontología que se encarga del diagnostico y tratamiento de las enfermedades del nervio o pulpa dental. El principal procedimiento  es el tratamiento de conductos que Consiste en la extirpación de la <a href="https://es.wikipedia.org/wiki/Pulpa_dental">pulpa dental</a> y el posterior relleno y sellado de la cavidad pulpar con un material inerte, de este se desprende otros tipos de procedimientos dependiendo de la complejidad de la situación y el estado del diente.</p>]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title><![CDATA[Periodoncia]]></title>
+                <link>https://innovationdent.com/blog/periodoncia</link>
+                <description><![CDATA[null]]></description>
+                <category><![CDATA[[object Object]]]></category>
+                <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
+                <upDate>
+                    Wed, 14 Apr 2021 17:36:04 GMT
+                </upDate>
+                <media:content url="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/Cover.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[<figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" class="kg-image" alt srcset="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=600 600w, https://images.unsplash.com/photo-1606811971618-4486d14f3f99?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1000 1000w, https://images.unsplash.com/photo-1606811971618-4486d14f3f99?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1600 1600w, https://images.unsplash.com/photo-1606811971618-4486d14f3f99?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2400 2400w" sizes="(min-width: 720px) 720px"><figcaption>Photo by <a href="https://unsplash.com/@carocaro1987?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Caroline LM</a> / <a href="https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Unsplash</a></figcaption></figure><p>Es la especialidad de la odontología encargada de prevenir, tratar y controlar las enfermedades de las encías y el hueso que soporta los dientes, también hace parte importante en la estética dental ya que nivela y contornea  la encia buscando una armonía entre dientes y tejidos blandos</p>]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title><![CDATA[Diseño de Sonrisa]]></title>
+                <link>https://innovationdent.com/blog/diseno-de-sonrisa</link>
+                <description><![CDATA[null]]></description>
+                <category><![CDATA[[object Object]]]></category>
+                <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
+                <upDate>
+                    Wed, 14 Apr 2021 17:31:38 GMT
+                </upDate>
+                <media:content url="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/Cover.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[<figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" class="kg-image" alt="Happy daughter" srcset="https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=600 600w, https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1000 1000w, https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1600 1600w, https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGRlbnRhbHxlbnwwfHx8fDE2MTg0MjE1MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2400 2400w" sizes="(min-width: 720px) 720px"><figcaption>Photo by <a href="https://unsplash.com/@michaeldam?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Michael Dam</a> / <a href="https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Unsplash</a></figcaption></figure><p>Es el arte de la odontología para mejorar el aspecto de tu sonrisa por medio de una serie de procedimientos odontológicos, donde buscamos una simetría dental con tamaños, color, formas y ángulos de tus dientes, armonizando el rostro con la sonrisa, valorando y teniendo en cuenta todos los aspectos mencionados anteriormente de manera individual para cada paciente.</p><p>Buscando la estabilidad y durabilidad de los tratamientos en diseño de sonrisa, realizamos valoraciones teniendo en cuenta la posición y forma de los dientes definiendo así la necesidad de tratamientos de Ortodoncia iniciales.</p>]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title><![CDATA[Ortodoncia]]></title>
+                <link>https://innovationdent.com/blog/ortodoncia</link>
+                <description><![CDATA[null]]></description>
+                <category><![CDATA[[object Object]]]></category>
+                <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
+                <upDate>
+                    Fri, 09 Apr 2021 14:23:25 GMT
+                </upDate>
+                <media:content url="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/Cover.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[<figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/post-preview.jpg" class="kg-image" alt><figcaption>Imagen de niña sonriendo</figcaption></figure><p>Somos los especialistas encargados de solucionar los problemas de la posición de los dientes, tratando en estos función y estética dental, pilares fundamentales de una correcta salud dental.</p><p>Es casi siempre el primer paso para un correcto e ideal DISEÑO DE SONRISA, enfocándonos en el SMILE ARC o Arco de Sonrisa de cada paciente.</p><!--kg-card-begin: html--><h2>Tipos de ortodoncia</h2><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/feb16.jpg" class="kg-image" alt="alt ortodoncia 10 mese de tratamiento"><figcaption>Foto de sonrisa con tratamiento de 10 meses</figcaption></figure><!--kg-card-begin: html--><h3>Alineadores dentales</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/mayo26.jpg" class="kg-image" alt="Foto de dientes con invisalign"><figcaption>caption Foto de dientes con invisalign</figcaption></figure><p>Es el ultimo desarrollo tecnológico para movimientos dentales a nivel mundial, Contamos con certificaciones y amplia experiencia en el tratamiento de casos con </p><p>los mejores alineadores desarrollados en diferentes países del mundo.</p><!--kg-card-begin: html--><h4>Ventajas</h4><!--kg-card-end: html--><ul><li>Comodidad y Estética</li><li>Posibilidad de realizar excelente higiene oral</li><li>No hay restricciones alimenticias</li><li>Se resuelve cualquier tipo de maloclusión sin restricciones</li><li>Disminución del dolor e incomodidad</li><li>Tratamientos más cortos y disminución de citas al ortodoncista</li><li>Posibilidad de realizar tratamientos fuera de la ciudad o país</li></ul><!--kg-card-begin: html--><h3>Autoligado</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/mayo30.jpg" class="kg-image" alt><figcaption>Foto de autoligado metálico</figcaption></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/mayo28.jpg" class="kg-image" alt><figcaption>Foto de autoligado estético</figcaption></figure><p></p><p>Ultimo desarrollo tecnológico en cuanto a aparatología fija, sistema de ligado en el mismo material del bracket (compuerta) evitando el uso de ligas o cauchitos para sostener el alambre dentro del bracket.</p><p>Los encontramos en variedad Metálica y Estética</p><!--kg-card-begin: html--><h4>Ventajas</h4><!--kg-card-end: html--><ul><li>Disminución en tiempos de tratamiento en comparación con sistemas convencionales</li><li> Disminución en la fricción lo que se traduce en menor dolor e incomodidad del paciente</li><li>Disminución en cantidad de extracciones</li><li>Menos visitas al ortodoncista</li><li>Mayor facilidad a la hora de realizar higiene oral</li></ul><!--kg-card-begin: html--><h3>Ligado convencional</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/nov27.jpg" class="kg-image" alt><figcaption>Foto de mujer</figcaption></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/jun1.jpg" class="kg-image" alt><figcaption>Foto de hombre</figcaption></figure><p>Son los brackets que más se han utilizado a través del tiempo, con modificaciones que buscan hacerlos mas tecnológicos y cómodos para los pacientes.</p><p>Su ligado se realiza por medio de elásticos  cauchos de colores, los encontramos en variedad estética y metálica.</p><!--kg-card-begin: html--><h4>Ventajas</h4><!--kg-card-end: html--><ul><li>Bajo costo</li></ul><!--kg-card-begin: html--><h3>Ortopedia Funcional de los maxilares</h3><!--kg-card-end: html--><p>Es el tratamiento que se inicia a más temprana edad (6 a 7 años aproximadamente) , encargado de intervenir directamente sobre los huesos maxilares del niñ@ en edad de crecimiento, guiando la correcta erupción de los dientes</p><!--kg-card-begin: html--><h4>Ventajas</h4><!--kg-card-end: html--><ul><li>Mejorar apariencia de los dientes</li><li>Generar espacios para dientes definitivos</li><li>Evitar extracciones futuras</li><li>Corregir discrepancia en el tamaño y posición de los maxilares</li></ul>]]>
+                </content:encoded>
+            </item>
+        
+        </channel>
+    </rss>
+    

@@ -62,14 +62,14 @@
 	{#if pageCount > 1}
 		<div class="pagination">
 			<button
-				class="btn-primary"
+				class="btn btn-primary"
 				type="button"
 				on:click={prevPage}
 				disabled={pageNum === 1 ? true : false}
 			>Volver
 			</button>
 			<button
-				class="btn-primary"
+				class="btn btn-primary"
 				type="button"
 				on:click={nextPage}
 				disabled={pageNum === pageCount ? true : false}

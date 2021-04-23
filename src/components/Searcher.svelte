@@ -26,7 +26,7 @@
             bind:value={text}
             bind:this={searchInput}
         >
-        <button type="submit" class="btn-primary">Search</button>
+        <button type="submit" class="btn btn-primary">Search</button>
     </form>
     <button class="btn-secondary" on:click={clearSearch}>Clear</button>
 </div>
