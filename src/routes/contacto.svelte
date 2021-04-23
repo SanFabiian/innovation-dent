@@ -14,7 +14,7 @@
 </svelte:head>
 
 <section class="content contact">
-	<form action="/gracias" name="contact" netlify>
+	<form action="/gracias" name="contact" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true">
 		<h1>Contáctanos</h1>
 		<label for="name">Nombre</label>
 		<input name="name" type="text" placeholder="Tu nombre" required/>
@@ -22,6 +22,7 @@
 		<input name="email" type="email" placeholder="Tu correo" required/>
 		<label for="message">Mensaje</label>
 		<textarea  name="message" cols="30" rows="7"></textarea>
+		<div data-netlify-recaptcha="true"></div>
 		<button type="submit" class="btn btn-primary">Enviar</button>
 	</form>
 </section>
