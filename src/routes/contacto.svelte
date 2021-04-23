@@ -14,14 +14,14 @@
 </svelte:head>
 
 <section class="content contact">
-	<form action="" id="form" class="form">
+	<form action="/gracias" name="contact" netlify>
 		<h1>Contáctanos</h1>
 		<label for="name">Nombre</label>
-		<input name="name" type="text" id="name" placeholder="Tu nombre" required/>
+		<input name="name" type="text" placeholder="Tu nombre" required/>
 		<label for="email">Correo</label>
-		<input name="email" type="email" id="email" placeholder="Tu correo" required/>
+		<input name="email" type="email" placeholder="Tu correo" required/>
 		<label for="message">Mensaje</label>
-		<textarea  name="message" id="message" cols="30" rows="10"></textarea>
+		<textarea  name="message" cols="30" rows="7"></textarea>
 		<button type="submit" class="btn btn-primary">Enviar</button>
 	</form>
 </section>
@@ -37,5 +37,20 @@
 	label {
 		font-family: var(--font-maven);
 		font-size: var(--size-text);
+		margin: 15px 0 5px 0;
+	}
+	input {
+		height: 30px;
+		padding-left: 15px;
+		border: none;
+		border-bottom: solid 1px var(--green);
+	}
+	input::placeholder {
+		font-style: italic;
+		color: var(--green);
+	}
+	textarea {
+		border: solid 1px var(--green);
+		border-radius: 10px
 	}
 </style>

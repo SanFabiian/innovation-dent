@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 	display: block;
 	min-width: 120px;
 	max-width: 200px;
-	padding: 5px;
+	padding: 5px 20px;
 	margin: 10px 0;
 	border-radius: 30px;
 	font-size: 16px;
@@ -54,6 +54,11 @@ h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 .btn-primary {
 	background: var(--yellow);
 	color: var(--white);
+	border: solid 1px var(--yellow);
+}
+.btn-primary:active {
+	background: var(--white);
+	color: var(--yellow);
 	border: solid 1px var(--yellow);
 }
 main {
