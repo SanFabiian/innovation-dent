@@ -15,7 +15,7 @@
 
 <section class="content contact">
 	<form
-		name="contact"
+		name="contactoo"
 		method="POST"
 		data-netlify="true"
 		action="/gracias"
