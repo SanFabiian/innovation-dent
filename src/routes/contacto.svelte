@@ -16,7 +16,8 @@
 <section class="content contact">
 	<form
 		name="contact"
-		netlify
+		data-netlify="true"
+		method="POST"
 		netlify-honeypot="bot-field"
 	>
 		<h1>Contáctanos</h1>
@@ -25,7 +26,7 @@
 		<label for="email">Correo</label>
 		<input name="email" type="email" placeholder="Tu correo" required/>
 		<label for="message">Mensaje</label>
-		<textarea  name="message" cols="30" rows="5"></textarea>
+		<textarea  name="message" cols="30" rows="5" placeholder="Cuentanos en que podemos ayudarte"></textarea>
 		<button type="submit" class="btn btn-primary">Enviar</button>
 	</form>
 </section>
@@ -51,7 +52,7 @@
 		border: none;
 		border-bottom: solid 1px var(--green);
 	}
-	input::placeholder {
+	input::placeholder,textarea::placeholder {
 		font-style: italic;
 		color: var(--green);
 	}
