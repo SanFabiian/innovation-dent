@@ -14,7 +14,13 @@
 </svelte:head>
 
 <section class="content contact">
-	<form action="/gracias" name="contact" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+	<form
+		action="/gracias"
+		name="contact"
+		netlify
+		netlify-honeypot="bot-field"
+		data-netlify-recaptcha="true"
+	>
 		<h1>Contáctanos</h1>
 		<label for="name">Nombre</label>
 		<input name="name" type="text" placeholder="Tu nombre" required/>
