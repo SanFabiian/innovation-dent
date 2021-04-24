@@ -15,7 +15,7 @@
 
 <section class="content contact">
 	<form
-		action=""
+		action="/gracias"
 		name="contact"
 		netlify
 		netlify-honeypot="bot-field"
@@ -27,15 +27,20 @@
 		<label for="email">Correo</label>
 		<input name="email" type="email" placeholder="Tu correo" required/>
 		<label for="message">Mensaje</label>
-		<textarea  name="message" cols="30" rows="7"></textarea>
-		<div data-netlify-recaptcha="true"></div>
+		<textarea  name="message" cols="30" rows="5"></textarea>
+		<div class="g-recaptcha" data-sitekey="6LdK77caAAAAAKOzUk8lwlMkc7uMPGxWeJkP7W8D"></div>
 		<button type="submit" class="btn btn-primary">Enviar</button>
 	</form>
 </section>
 
 <style>
 	.contact {
+		max-width: 400px;
+		margin: 0 auto;
 		padding: 20px;
+	}
+	.g-recaptcha {
+		margin-top: 10px;
 	}
 	form {
 		display: flex;
@@ -58,6 +63,7 @@
 	}
 	textarea {
 		border: solid 1px var(--green);
-		border-radius: 10px
+		border-radius: 10px;
+		padding: 15px;
 	}
 </style>
