@@ -16,17 +16,16 @@
 <section class="content contact">
 	<form
 		name="contact"
-		data-netlify="true"
 		method="POST"
-		netlify-honeypot="bot-field"
+		data-netlify="true"
 	>
 		<h1>Contáctanos</h1>
-		<label for="name">Nombre</label>
-		<input name="name" type="text" placeholder="Tu nombre" required/>
-		<label for="email">Correo</label>
-		<input name="email" type="email" placeholder="Tu correo" required/>
-		<label for="message">Mensaje</label>
-		<textarea  name="message" cols="30" rows="5" placeholder="Cuentanos en que podemos ayudarte"></textarea>
+		<label for="user-name">Nombre</label>
+		<input name="user-name" type="text" placeholder="Tu nombre" required/>
+		<label for="user-email">Correo</label>
+		<input name="user-email" type="email" placeholder="Tu correo" required/>
+		<label for="user-message">Mensaje</label>
+		<textarea  name="user-message" cols="30" rows="5" placeholder="Cuentanos en que podemos ayudarte" required></textarea>
 		<button type="submit" class="btn btn-primary">Enviar</button>
 	</form>
 </section>
