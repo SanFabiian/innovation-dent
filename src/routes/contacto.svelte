@@ -15,7 +15,7 @@
 
 <section class="content contact">
 	<form
-		action="/gracias"
+		action=""
 		name="contact"
 		netlify
 		netlify-honeypot="bot-field"
