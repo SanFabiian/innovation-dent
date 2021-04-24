@@ -1,7 +1,16 @@
+<script>
+    export let segment
+</script>
+
 <div class="modal">
     <h3>¡Gracias por contactarnos!</h3>
     <p>Te estaremos contactanto en breve.</p>
-    <a href="/blog" class="btn btn-primary">Lee nuestro blog</a>
+    <a
+        rel=prefetch
+        aria-current="{segment === 'blog' ? 'page': undefined}
+        "href="/blog"
+        class="btn btn-primary"
+    >Lee nuestro blog</a>
 </div>
 
 <style>
