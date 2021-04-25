@@ -4,7 +4,7 @@
     import icon_periodoncia from '@static/icon-periodoncia.svg'
     import icon_diseno from '@static/icon-diseno.svg'
 </script>
-
+<h1 class="title">Especialidades</h1>
 <section>
     <a href="blog/ortodoncia">
         <img src="{icon_ortodoncia}" alt="">
@@ -25,6 +25,9 @@
 </section>
 
 <style>
+    h1 {
+        font-size: 5rem;
+    }
     section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

@@ -81,11 +81,7 @@
 </section>
 <style>
 	.cards-blog-wrap {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
-		grid-auto-rows: 80px;
-		grid-gap: 15px;
-		justify-content: center;
+		padding: 20px;
 	}
 	.pagination {
 		display: flex;

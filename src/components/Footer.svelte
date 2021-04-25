@@ -3,6 +3,7 @@
     import logo from '@static/logo-color.svg'
     import instagram from '@static/instagram.svg'
     import facebook from '@static/facebook.svg'
+    import call from '@static/call.svg'
 </script>
 <footer>
     <div class="contact">
@@ -10,15 +11,8 @@
             <img src="{logo}" alt="Logo innovarion Dent a color">
         </figure>
         <h2 class="subtitle">Contáctanos</h2>
-        <ul>
-            <li>
-                Ak 68 # 23-24 Clínica Colombia
-            </li>
-            <li>
-                <a href="tel:+573012345678">301 234 56 78</a> - <a href="tel:3001234567">300 123 45 67</a>
-            </li>
-        </ul>
         <div class="redes">
+            <a href="tel:573012345678" class="icon"><img src="{call}" alt="icono de llamada"></a> <a href="tel:573001234567" class="icon"><img src="{call}" alt="icono de llamada"></a>
             <a href="https://www.instagram.com/orto_innovation/"target="_blank" on:click={analytics('instagram')}>
                 <img src="{instagram}" alt="Logo de Instagram">
             </a>
@@ -41,14 +35,9 @@
     }
     .redes {
         display: flex;
-        padding-top: 30px;
-    }
-    li {
-        list-style: none;
-        font-size: var(--size-text);
-    }
-    a {
-        color: var(--green);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
     }
     a img {
         width: 40px;
@@ -59,15 +48,32 @@
         height: 200px;
         border: none;
     }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: var(--green);
+        border-radius: 20px;
+    }
+    .icon img {
+        width: 25px;
+    }
     .copy {
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 60px;
         padding: 10px;
+        padding-bottom: 50px;
         background: var(--green);
         color: var(--white);
         font-family: var(--font-maven);
         font-size: var(--size-mintext);
+    }
+    figure img {
+        width: 130px;
     }
     @media (min-width: 768px) {
         footer {

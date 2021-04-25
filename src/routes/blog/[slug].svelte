@@ -16,6 +16,7 @@
 
 <script>
 	import leftArrow from '@static/arrow-left.svg'
+	import readingTime from '@utils/readingTime'
 	export let post;
 	const desc = `Acá encontraras toda nuestra experiencia con relacionado ${post.title}.`
 </script>
@@ -44,5 +45,12 @@
 		<img src="{leftArrow}" alt="icono flecha a la izquierda">
 	</button>
 	<h1>{post.title}</h1>
+	<p>Leelo en aproximadamente {readingTime(post.html)}</p>
 	{@html post.html}
 </div>
+
+<style>
+	p {
+		text-align: right;
+	}
+</style>

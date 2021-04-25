@@ -22,13 +22,10 @@
 <style>
     .carousel-item {
         position: relative;
-        scroll-snap-align: center;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         padding-bottom: 60px;
         max-width: 320px;
-        min-width: 300px;
-        grid-row: span 3;
     }
     .carousel-item-title {
         display: flex;

@@ -61,12 +61,20 @@ h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 	color: var(--yellow);
 	border: solid 1px var(--yellow);
 }
+.btn-secondary {
+	background: transparent;
+	color: var(--white);
+	border: solid 1px var(--white);
+}
+.btn-secondary:active {
+	background: var(--white);
+	color: var(--green);
+}
 main {
 	margin-top: 65px;
 }
 
 h1 {
-	margin-bottom: 10px;
 	padding: 20px;
 	padding-bottom: 0;
 	color: var(--yellow);

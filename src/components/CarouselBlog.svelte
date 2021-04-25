@@ -7,7 +7,6 @@
         <h1 class="title">Blog</h1>
         <div class="carousel-title">
             <p>Acá encontraras todo lo relacionado con el cuidado de tus dientes.</p>
-            <a href="/blog" class="btn btn-primary">Ver Más</a>
         </div>
     </div>
     <div class="carousel-items-wrap">
@@ -22,24 +21,25 @@
                 />
             {/if}
         {/each}
+        <a href="/blog" class="btn btn-primary">Ver Más</a>
     </div>
 </section>
 <style>
     .carousel-items-wrap {
         display: flex;
+        flex-wrap: wrap;
         gap: var(--gap);
-        padding: 15px;
-        padding-bottom: 60px;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;
+        padding: 30px 20px;
+        background: var(--grey-bg);
     }
     .carousel-header {
-        padding: 20px 10px;
+        padding: 20px;
     }
     p {
         font-size: var(--size-text);
+    }
+    h1 {
+        margin-bottom: 30px;
     }
     @media (min-width: 768px) {
         .carousel-header {
