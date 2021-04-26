@@ -39,6 +39,7 @@
     .experiences-wrap {
         display: flex;
         gap: var(--gap);
+        margin: 0 20px;
         padding: 15px;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -71,6 +72,7 @@
         .experiences-wrap {
             overflow: initial;
             flex-wrap: wrap;
+            justify-content: center;
         }
     }
 </style>

@@ -15,7 +15,7 @@
                 Innovation Dent
             </generator>
             <lastBuildDate>
-                Fri, 23 Apr 2021 02:15:51 GMT
+                Mon, 26 Apr 2021 02:22:27 GMT
             </lastBuildDate
             <atom:link href="https://innovationdent.com/rss.xml" rel="self" type="application/rss+xml" />
             <ttl>60</ttl>
@@ -23,10 +23,25 @@
             <description>Free web building tutorials</description>
             
             <item>
+                <title><![CDATA[Post prueba]]></title>
+                <link>https://innovationdent.com/blog/post-prueba</link>
+                <description><![CDATA[It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ]]></description>
+                <category><![CDATA[[object Object],[object Object],[object Object]]]></category>
+                <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
+                <upDate>
+                    Mon, 26 Apr 2021 02:18:31 GMT
+                </upDate>
+                <media:content url="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/Cover.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[<h2 id="-qu-es-lorem-ipsum">¿Qué es Lorem Ipsum?</h2><p><strong>Lorem Ipsum</strong> es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde la década de 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer un libro de muestras tipográficas. Ha sobrevivido no solo a cinco siglos, sino también al salto a la composición tipográfica electrónica, permaneciendo vivo sin cambios. Se popularizó en la década de 1960 con el lanzamiento de hojas de Letraset que contienen pasajes de Lorem Ipsum y, más recientemente, con software de autoedición como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p><figure class="kg-card kg-image-card"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/1597175.jpeg" class="kg-image" alt></figure><h2 id="-por-qu-lo-usamos">¿Por qué lo usamos?</h2><p>Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página cuando mire su diseño. El punto de usar Lorem Ipsum es que tiene una distribución de letras más o menos normal, en lugar de usar 'Contenido aquí, contenido aquí', lo que hace que parezca un inglés legible. Muchos paquetes de autoedición y editores de páginas web ahora usan Lorem Ipsum como su modelo de texto predeterminado, y una búsqueda de 'lorem ipsum' revelará muchos sitios web aún en su infancia. Varias versiones han evolucionado a lo largo de los años, a veces por accidente, a veces a propósito (humor inyectado y cosas por el estilo).</p>]]>
+                </content:encoded>
+            </item>
+        
+            <item>
                 <title><![CDATA[Endodoncia]]></title>
                 <link>https://innovationdent.com/blog/endodoncia</link>
-                <description><![CDATA[null]]></description>
-                <category><![CDATA[[object Object]]]></category>
+                <description><![CDATA[Es la especialidad de la odontología que se encarga del diagnostico y tratamiento de las enfermedades del nervio o pulpa dental. ]]></description>
+                <category><![CDATA[[object Object],[object Object]]]></category>
                 <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
                 <upDate>
                     Wed, 14 Apr 2021 17:38:22 GMT

@@ -25,4 +25,3 @@
 <Services />
 <CarouselBlog />
 <Experiences />
-<Contact />

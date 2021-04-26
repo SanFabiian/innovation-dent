@@ -24,7 +24,7 @@
         position: relative;
         width: 100%;
         margin: 0 auto;
-        padding-bottom: 60px;
+        padding-bottom: 70px;
         max-width: 320px;
     }
     .carousel-item-title {
@@ -34,6 +34,7 @@
     }
     .carousel-item img {
         width: 100%;
+        transform: scale(1.6);
     }
     .carousel-item-desc {
         position: absolute;
@@ -57,5 +58,6 @@
     figure {
         height: 180px;
         overflow: hidden;
+        border-radius: 0 0 10px 10px;
     }
 </style>

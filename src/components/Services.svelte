@@ -5,7 +5,7 @@
     import icon_diseno from '@static/icon-diseno.svg'
 </script>
 <h1 class="title">Especialidades</h1>
-<section>
+<section class="content">
     <a href="blog/ortodoncia">
         <img src="{icon_ortodoncia}" alt="">
         <h2>Ortodoncia</h2>
@@ -32,7 +32,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--gap);
-        margin: 2rem 0;
         text-align: center;
         font-size: var(--size-mintext);
     }
@@ -46,7 +45,7 @@
         text-decoration: none;
     }
     img {
-        width: 150px;
+        width: 130px;
     }
     h2 {
         font-size: var(--size-subtitle);

@@ -5,9 +5,6 @@
 <section class="carousel-wrap">
     <div class="carousel-header">
         <h1 class="title">Blog</h1>
-        <div class="carousel-title">
-            <p>Acá encontraras todo lo relacionado con el cuidado de tus dientes.</p>
-        </div>
     </div>
     <div class="carousel-items-wrap">
         {#each posts as post, i}
@@ -27,40 +24,48 @@
 <style>
     .carousel-items-wrap {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: var(--gap);
         padding: 30px 20px;
-        background: var(--grey-bg);
     }
     .carousel-header {
         padding: 20px;
     }
-    p {
-        font-size: var(--size-text);
-    }
-    h1 {
-        margin-bottom: 30px;
+    @media (min-width: 600px) {
+        .carousel-items-wrap {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 15px;
+        }
+        .btn-primary {
+            grid-column: 2/3;
+            justify-self: flex-end;
+            margin-top: 0;
+            margin-right: 20px;
+        }
     }
     @media (min-width: 768px) {
         .carousel-header {
-            max-width: 900px;
             margin: 0 auto;
-            padding: 0 100px;
+            padding: 0 20;
+        }
+        .carousel-items-wrap {
+            max-width: 768px;
+            margin: 0 auto;
         }
     }
-    @media (min-width: 1024px) {
-        .carousel-header {
-            max-width: 1200px;
-        }
-
+    @media (min-width: 1200px) {
         .carousel-items-wrap {
-            overflow: initial;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 15px;
+            max-width: 1100px;
         }
-    }
-    @media (min-width: 1441px) {
-        .carousel-items-wrap {
-            padding: 0 100px;
+        .btn-primary {
+            grid-column: 4/5;
+            justify-self: flex-end;
+            margin-right: 20px;
         }
     }
 </style>

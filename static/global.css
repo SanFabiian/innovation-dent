@@ -19,7 +19,7 @@ html {
 	--size-title: 2.5rem;
 	--size-subtitle: 2.0rem;
 	--size-text: 1.6rem;
-	--size-mintext: 1.3rem;
+	--size-mintext: 1.2rem;
 	--gap: 15px;
 }
 h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
@@ -76,7 +76,6 @@ main {
 
 h1 {
 	padding: 20px;
-	padding-bottom: 0;
 	color: var(--yellow);
 	font-family: var(--font-yellowtail);
 	font-size: calc(var(--size-title) * 2);
@@ -85,6 +84,7 @@ h1 {
 	line-height: 35px;
 }
 .content {
+	position: relative;
 	padding-bottom: 30px;
 }
 .kg-width-full {
@@ -93,7 +93,6 @@ h1 {
 .content h2 {
 	font-size: var(--size-title);
 	margin: 15px 0;
-	padding: 0 20px;
 }
 .content h3 {
 	color: var(--blue);
@@ -124,30 +123,13 @@ h1 {
 .content figure img {
 	width: 100%;
 }
-.btn-go-back {
-	position: fixed;
-	top: 75px;
-	left: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 30px;
-	height: 30px;
-	border-radius: 15px;
-	border: none;
-	background: #61b9be85;
-	color: var(--white);
-	font-size: 30px;
-	z-index: 1;
-}
-.btn-go-back img {
-	height: 70%;
-}
 .tag {
-    display: block;
+    display: inline-flex;
+	margin-right: 5px;
     padding: 2px 5px;
     border-radius: 23px;
 	font-size: 14px;
+	font-family: var(--font-maven);
 }
 .ortodoncia {
 	background: #C5E9FF;
@@ -178,4 +160,10 @@ figcaption {
 }
 figcaption a {
 	color: var(--grey-bg);
+}
+@media (min-width: 1024px) {
+	.content {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
 }

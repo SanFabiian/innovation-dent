@@ -37,7 +37,7 @@
 </svelte:head>
 
 
-<div class="content">
+<div class="content blog-wrap">
 	<button
 		type="button"
 		class="btn-go-back"
@@ -52,5 +52,23 @@
 <style>
 	p {
 		text-align: right;
+	}
+	.btn-go-back {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		border: none;
+		background: #61b9be85;
+		color: var(--white);
+		font-size: 30px;
+	}
+	.btn-go-back img {
+		height: 70%;
 	}
 </style>

@@ -8,33 +8,42 @@
 </script>
 
 <header>
-	<a
-        aria-current="{segment === undefined ? 'page' : undefined}"
-        href="/"
-        class="logo"
-        on:click={() => open = false}
-    >
-        <img src="{logo}" alt="Logo innovation dent">
-    </a>
-    <Sitebar bind:open/>
-    <Nav {segment} bind:navOpen={open}/>
+	<div class="header-wrap">
+        <a
+               aria-current="{segment === undefined ? 'page' : undefined}"
+               href="/"
+               class="logo"
+               on:click={() => open = false}
+           >
+               <img src="{logo}" alt="Logo innovation dent">
+           </a>
+           <Sitebar bind:open/>
+           <Nav {segment} bind:navOpen={open}/>
+    </div>
 </header>
 <style>
     header {
+        background: var(--green);
         position: fixed;
         top: 0;
-        display: flex;
-        align-items: center;
         width: 100%;
         height: 65px;
-        padding: var(--gap);
-        background: var(--green);
         z-index: 1;
+    }
+    .header-wrap {
+        display: flex;
+        align-items: center;
     }
 	.logo {
 		width: 100px;
 	}
     a {
         padding: 5px;
+    }
+    @media (min-width: 1024px) {
+        .header-wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
     }
 </style>

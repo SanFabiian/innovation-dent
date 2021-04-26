@@ -8,6 +8,11 @@
 
 <script>
 	import CardBlog from '@components/CardBlog.svelte'
+	import firstPost from '@post/_posts.js'
+	import formatIsoTime from '@utils/formatIsoTime.js'
+	import readingTime from '@utils/readingTime'
+	const tags = firstPost[0].tag.map(t => `<div class="tag ${t.slug}">${t.name}</div>`).join('')
+	console.log(firstPost[0].createdAt)
 	export let posts;
 	let pageNum = 1
 	const pageSize = 6
@@ -47,16 +52,33 @@
 
 <section class="content">
 	<h1>Blog</h1>
-	<p>Acá encontraras toda nuestra experiencia sobre todo lo relacionado con el cuidado de tu boca.</p>
+
+	<div class="first-post">
+		<figure>
+			<img src="{firstPost[0].image}" alt="{firstPost[0].slug}">
+		</figure>
+		<div class="first-post-desc">
+			<div>
+				{@html tags}
+			</div>
+			<p class="time"><time datatime={firstPost[0].createdAt}>📆 {formatIsoTime(firstPost[0].createdAt)}</time>  - leelo en {readingTime(firstPost[0].html)}</p>
+			<h2>{firstPost[0].title}</h2>
+			<p>{firstPost[0].desc}</p>
+			<a href="/blog/{firstPost[0].slug}" class="btn btn-primary">Leé más</a>
+		</div>
+	</div>
+
 	<div class="cards-blog-wrap">
-		{#each pagination as page}
+		{#each pagination as page, i}
+			{#if i > 0}
 			<CardBlog
-				image={page.image}
-				tag={page.tag}
-				date={page.createdAt}
-				title={page.title}
-				slug={page.slug}
-			/>
+					image={page.image}
+					tag={page.tag}
+					date={page.createdAt}
+					title={page.title}
+					slug={page.slug}
+				/>
+			{/if}
 		{/each}
 	</div>
 	{#if pageCount > 1}
@@ -80,8 +102,34 @@
 	{/if}
 </section>
 <style>
+	.first-post {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.first-post img {
+		width: 100%;
+	}
+	.first-post-desc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 20px;
+		height: 100%;
+		background: var(--grey-bg);
+		margin-top: -2px;
+	}
+	.first-post-desc h2 {
+		margin: 10px 0 0 0;
+	}
+	.first-post-desc p {
+		padding: 0;
+	}
 	.cards-blog-wrap {
 		padding: 20px;
+	}
+	.time {
+		font-size: 1.4rem;
+		margin: 5px 0;
 	}
 	.pagination {
 		display: flex;
@@ -93,11 +141,36 @@
 		background: transparent;
 		color: var(--yellow);
 	}
+
 	h6 {
 		width: 100%;
 		padding: 5px;
 		text-align: center;
 		font-size: var(--size-mintext);
 		color: var(--grey);
+	}
+	time {
+		font-family: var(--font-maven);
+		font-size: 1.4rem;
+	}
+	@media (min-width: 600px) {
+		.cards-blog-wrap {
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+			gap: 15px;
+		}
+	}
+	@media (min-width: 768px) {
+		.first-post {
+			grid-template-columns: repeat(2,1fr);
+		}
+		.cards-blog-wrap {
+			padding: 20px 0;
+		}
+	}
+	@media (min-width: 1200px) {
+		.cards-blog-wrap {
+			grid-template-columns: repeat(4,1fr);
+		}
 	}
 </style>

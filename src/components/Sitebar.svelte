@@ -44,7 +44,8 @@
 		top: 65px;
 		width: 100%;
 		height: 100vh;
-		background: var(--green);
+		background: linear-gradient(var(--green), transparent), linear-gradient(90deg, #6197be, transparent), linear-gradient(-90deg, #61b0be, transparent );
+		background-color: white;
 		right: -100%;
 		transition: right 0.3s ease-in-out;
 		z-index: 1;
@@ -56,6 +57,7 @@
 		nav {
 			position: initial;
 			height: 65px;
+			background: var(--green);
 		}
 		nav ul {
 			display: flex;

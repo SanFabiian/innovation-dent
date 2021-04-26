@@ -15,10 +15,8 @@
 
 <style>
     .meeting {
-        position: sticky;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        position: fixed;
+        bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,5 +44,12 @@
     }
     span {
         z-index: 3;
+    }
+    @media (min-width: 768px) {
+        .meeting {
+            top: 50%;
+            bottom: initial;
+            transform: translateY(-50%);
+        }
     }
 </style>

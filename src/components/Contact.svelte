@@ -19,7 +19,7 @@
 
 <style>
 	.contact {
-		max-width: 400px;
+		width: 100%;
 		margin: 0 auto;
 		padding: 20px;
 		background: linear-gradient(var(--green), transparent), linear-gradient(90deg, #6197be, transparent), linear-gradient(-90deg, #61b0be, transparent );
@@ -27,6 +27,7 @@
 	form {
 		display: flex;
 		flex-direction: column;
+		max-width: 400px;
 	}
 	label {
 		font-family: var(--font-maven);
