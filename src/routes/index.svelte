@@ -3,7 +3,6 @@
 	import Services from '@components/Services.svelte'
 	import CarouselBlog from '@components/CarouselBlog.svelte'
 	import Experiences from '@components/Experiences.svelte'
-	import Contact from '@components/Contact.svelte'
 </script>
 
 <svelte:head>

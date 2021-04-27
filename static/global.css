@@ -21,6 +21,7 @@ html {
 	--size-text: 1.6rem;
 	--size-mintext: 1.2rem;
 	--gap: 15px;
+	--gradient: linear-gradient(var(--green), transparent), linear-gradient(90deg, #6197be, transparent), linear-gradient(-90deg, #61b0be, transparent )
 }
 h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 	font-family: var(--font-maven);
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 .title {
 	color: var(--blue);
 	font-family: var(--font-yellowtail);
-	font-size: 6rem;
+	font-size: 4rem;
 	font-weight: normal;
 	text-align: center;
 }
@@ -128,7 +129,7 @@ h1 {
 	margin-right: 5px;
     padding: 2px 5px;
     border-radius: 23px;
-	font-size: 14px;
+	font-size: 1.3rem;
 	font-family: var(--font-maven);
 }
 .ortodoncia {

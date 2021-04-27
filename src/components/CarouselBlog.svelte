@@ -15,6 +15,7 @@
                 date={post.createdAt}
                 title={post.title}
                 slug={post.slug}
+                html={post.html}
                 />
             {/if}
         {/each}
@@ -22,15 +23,22 @@
     </div>
 </section>
 <style>
+    .carousel-wrap {
+        background: var(--gradient);
+    }
     .carousel-items-wrap {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: var(--gap);
         padding: 30px 20px;
+        padding-top: 0;
     }
     .carousel-header {
         padding: 20px;
+    }
+    .title {
+        color: white;
     }
     @media (min-width: 600px) {
         .carousel-items-wrap {

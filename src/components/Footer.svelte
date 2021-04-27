@@ -32,6 +32,9 @@
     footer {
         background: var(--grey-bg);
     }
+    .subtitle {
+        font-size: 1.8rem;
+    }
     .contact {
         padding: 30px 15px;
     }
@@ -43,7 +46,7 @@
         padding: 10px 0;
     }
     a img {
-        width: 40px;
+        width: 30px;
         margin: 0 5px;
     }
     iframe {
@@ -55,13 +58,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         background: var(--green);
         border-radius: 20px;
     }
     .icon img {
-        width: 25px;
+        width: 18px;
     }
     .copy {
         display: flex;
@@ -88,7 +91,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 30px;
         }
         iframe {
             width: 400px;

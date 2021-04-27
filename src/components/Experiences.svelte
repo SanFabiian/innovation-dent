@@ -4,7 +4,7 @@
 </script>
 
 <h2 class="title">Experiencias</h2>
-<section class="experiences-wrap">
+<section class="content experiences-wrap">
     <article class="experiences-item">
         <img src="{foto}" alt="">
         <div>
@@ -39,8 +39,7 @@
     .experiences-wrap {
         display: flex;
         gap: var(--gap);
-        margin: 0 20px;
-        padding: 15px;
+        padding: 0 0 30px 0;
         overflow-x: scroll;
         overflow-y: hidden;
         overscroll-behavior-x: contain;
@@ -64,6 +63,9 @@
     }
     h2.subtitle {
         font-size: var(--size-subtitle);
+    }
+    h2.title {
+        margin-top: 30px;
     }
     p {
         font-size: var(--size-text);

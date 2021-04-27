@@ -65,5 +65,8 @@
 			align-items: center;
 			height: 100%;
 		}
+		ul a {
+			padding-right: 0;
+		}
 	}
 </style>

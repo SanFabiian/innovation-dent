@@ -12,7 +12,6 @@
 	import formatIsoTime from '@utils/formatIsoTime.js'
 	import readingTime from '@utils/readingTime'
 	const tags = firstPost[0].tag.map(t => `<div class="tag ${t.slug}">${t.name}</div>`).join('')
-	console.log(firstPost[0].createdAt)
 	export let posts;
 	let pageNum = 1
 	const pageSize = 6
@@ -61,8 +60,8 @@
 			<div>
 				{@html tags}
 			</div>
-			<p class="time"><time datatime={firstPost[0].createdAt}>📆 {formatIsoTime(firstPost[0].createdAt)}</time>  - leelo en {readingTime(firstPost[0].html)}</p>
-			<h2>{firstPost[0].title}</h2>
+			<p class="time"><time datatime={firstPost[0].createdAt}>📆 {formatIsoTime(firstPost[0].createdAt)}</time>  - <b>{readingTime(firstPost[0].html)}</b></p>
+			<h2 class="subtitle">{firstPost[0].title}</h2>
 			<p>{firstPost[0].desc}</p>
 			<a href="/blog/{firstPost[0].slug}" class="btn btn-primary">Leé más</a>
 		</div>
@@ -77,6 +76,7 @@
 					date={page.createdAt}
 					title={page.title}
 					slug={page.slug}
+					html={page.html}
 				/>
 			{/if}
 		{/each}
@@ -108,6 +108,8 @@
 	}
 	.first-post img {
 		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 	.first-post-desc {
 		display: flex;
@@ -116,7 +118,6 @@
 		padding: 20px;
 		height: 100%;
 		background: var(--grey-bg);
-		margin-top: -2px;
 	}
 	.first-post-desc h2 {
 		margin: 10px 0 0 0;
@@ -125,7 +126,7 @@
 		padding: 0;
 	}
 	.cards-blog-wrap {
-		padding: 20px;
+		padding: 30px;
 	}
 	.time {
 		font-size: 1.4rem;
@@ -162,7 +163,7 @@
 	}
 	@media (min-width: 768px) {
 		.first-post {
-			grid-template-columns: repeat(2,1fr);
+			grid-template-columns: 2fr 1fr;
 		}
 		.cards-blog-wrap {
 			padding: 20px 0;

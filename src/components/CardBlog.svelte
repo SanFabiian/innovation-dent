@@ -1,10 +1,12 @@
 <script>
     import formatIsoTime from '@utils/formatIsoTime.js'
+    import readingTime from '@utils/readingTime'
     export let image
     export let tag
     export let date
     export let title
     export let slug
+    export let html
     const tags = tag.map(t => `<div class="tag ${t.slug}">${t.name}</div>`).join('')
 </script>
 <article class="carousel-item">
@@ -14,8 +16,8 @@
     <a class="carousel-item-desc" rel="prefetch" href="blog/{slug}">
         <div class="carousel-item-title">
             {@html tags}
-            <time datatime={date}>📆 {formatIsoTime(date)}</time>
         </div>
+        <time datatime={date}>📆 {formatIsoTime(date)} - <b>{readingTime(html)}</b></time>
         <h2 class="subtitle">{title}</h2>
     </a>
 </article>
@@ -30,11 +32,11 @@
     .carousel-item-title {
         display: flex;
         align-items: center;
-        justify-content: space-between;
     }
     .carousel-item img {
         width: 100%;
-        transform: scale(1.6);
+        height: 100%;
+        object-fit: cover;
     }
     .carousel-item-desc {
         position: absolute;
@@ -53,6 +55,8 @@
         font-size: 2rem;
     }
     time {
+        display: flex;
+        margin: .5rem 0;
         font-size: var(--size-mintext);
     }
     figure {

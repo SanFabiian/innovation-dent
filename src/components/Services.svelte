@@ -4,31 +4,33 @@
     import icon_periodoncia from '@static/icon-periodoncia.svg'
     import icon_diseno from '@static/icon-diseno.svg'
 </script>
-<h1 class="title">Especialidades</h1>
 <section class="content">
-    <a href="blog/ortodoncia">
-        <img src="{icon_ortodoncia}" alt="">
-        <h2>Ortodoncia</h2>
-    </a>
-    <a href="blog/endodoncia">
-        <img src="{icon_endodoncia}" alt="">
-        <h2>Endodoncia</h2>
-    </a>
-    <a href="blog/periodoncia">
-        <img src="{icon_periodoncia}" alt="">
-        <h2>Periodoncia</h2>
-    </a>
-    <a href="blog/diseno-de-sonrisa">
-        <img src="{icon_diseno}" alt="">
-        <h2>Diseño de Sonrisa</h2>
-    </a>
+    <h1 class="title">Especialidades</h1>
+    <div class="wrap">
+        <a href="blog/ortodoncia">
+            <img src="{icon_ortodoncia}" alt="">
+            <h2>Ortodoncia</h2>
+        </a>
+        <a href="blog/endodoncia">
+            <img src="{icon_endodoncia}" alt="">
+            <h2>Endodoncia</h2>
+        </a>
+        <a href="blog/periodoncia">
+            <img src="{icon_periodoncia}" alt="">
+            <h2>Periodoncia</h2>
+        </a>
+        <a href="blog/diseno-de-sonrisa">
+            <img src="{icon_diseno}" alt="">
+            <h2>Diseño de Sonrisa</h2>
+        </a>
+    </div>
 </section>
 
 <style>
-    h1 {
-        font-size: 5rem;
-    }
     section {
+        padding: 30px ;
+    }
+    .wrap {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--gap);
@@ -51,7 +53,7 @@
         font-size: var(--size-subtitle);
     }
     @media (min-width: 768px) {
-        section {
+        .wrap {
             grid-template-columns: repeat(4, 1fr);
         }
     }
