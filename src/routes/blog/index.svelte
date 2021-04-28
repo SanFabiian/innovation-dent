@@ -115,7 +115,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		padding: 20px;
+		padding: 35px;
 		height: 100%;
 		background: var(--grey-bg);
 	}

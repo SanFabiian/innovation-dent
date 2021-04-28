@@ -23,7 +23,7 @@ html {
 	--gap: 15px;
 	--gradient: linear-gradient(var(--green), transparent), linear-gradient(90deg, #6197be, transparent), linear-gradient(-90deg, #61b0be, transparent )
 }
-h1, h2, h3, h4, h5, h6, p, a, b, ul, li, span {
+h2, h3, h4, h5, h6, p, a, b, ul, li, span {
 	font-family: var(--font-maven);
 }
 .title {
@@ -144,7 +144,12 @@ h1 {
 	background: #d1c5fc;
     color: #6b618d;
 }
-
+.get-content figure:first-child img {
+	width: 100%;
+	max-width: initial;
+	max-height: 500px;
+	object-fit: contain;
+}
 figure {
 	position: relative;
 }
@@ -152,15 +157,81 @@ figcaption {
 	position: absolute;
 	right: 0;
 	bottom: 2px;
-	left: 0;
+	left: 50%;
+	width: 90%;
+	max-width: 680px;
 	padding: 5px 10px;
 	font-family: var(--font-maven);
 	font-size: 14px;
 	color: var(--grey-bg);
 	background: rgba(0 0 0 / .5);
+    transform: translateX(-50%);
 }
 figcaption a {
 	color: var(--grey-bg);
+}
+.get-content p {
+	font-size: 2rem;
+	line-height: 3rem;
+	padding: 20px;
+	text-align: justify;
+}
+.get-content h2,.get-content h3,.get-content h4 {
+	margin: 20px auto;
+	color: var(--green);
+}
+.get-content h2 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+}
+.get-content figure {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.get-content figure img {
+	width: 90%;
+}
+.get-content hr {
+	margin: 50px auto;
+	width: 200px;
+	border-bottom: solid 1px var(--blue);
+	border-top: none;
+}
+.get-content li {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.get-content h4 {
+	font-size: 2.2rem;
+	color: var(--blue);
+}
+@media(min-width: 768px) {
+	.get-content p {
+		max-width: 680px;
+		margin: 0 auto;
+	}
+	.get-content h2,.get-content h3,.get-content h4,.get-content ul {
+		max-width: 680px;
+		margin: 0 auto;
+	}
+	.get-content ul {
+		padding-left: 70px;
+	}
+	.get-content h3 {
+		font-size: 2.5rem;
+		padding: 20px 0;
+		margin: 0 auto;
+		text-transform: uppercase;
+	}
+	.get-content figure {
+		position: relative;
+	}
+	.get-content figure img {
+		width: 100%;
+		max-width: 680px;
+	}
 }
 @media (min-width: 1024px) {
 	.content {

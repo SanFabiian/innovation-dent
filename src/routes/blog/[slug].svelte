@@ -37,7 +37,7 @@
 </svelte:head>
 
 
-<div class="content blog-wrap">
+<section class="content blog-wrap">
 	<button
 		type="button"
 		class="btn-go-back"
@@ -45,13 +45,20 @@
 		<img src="{leftArrow}" alt="icono flecha a la izquierda">
 	</button>
 	<h1>{post.title}</h1>
-	<p>Leelo en {readingTime(post.html)}</p>
+</section>
+<p class="reading-time">Léelo en {readingTime(post.html)}</p>
+<section class="content get-content">
 	{@html post.html}
-</div>
+</section>
 
 <style>
-	p {
-		text-align: right;
+	.reading-time {
+		width: 100%;
+		max-width: 680px;
+		margin: 0 auto;
+		color: var(--green);
+		font-size: 1.6rem;
+		padding: 0 20px;
 	}
 	.btn-go-back {
 		position: absolute;

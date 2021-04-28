@@ -35,8 +35,13 @@
         align-items: center;
     }
 	.logo {
-		width: 100px;
+		width: auto;
+        height: 65px;
+        padding: 5px 20px;
 	}
+    img {
+        height: 100%;
+    }
     a {
         padding: 5px;
     }
