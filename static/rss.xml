@@ -15,7 +15,7 @@
                 Innovation Dent
             </generator>
             <lastBuildDate>
-                Wed, 28 Apr 2021 03:57:34 GMT
+                Mon, 10 May 2021 18:43:57 GMT
             </lastBuildDate
             <atom:link href="https://innovationdent.com/rss.xml" rel="self" type="application/rss+xml" />
             <ttl>60</ttl>
@@ -23,17 +23,32 @@
             <description>Free web building tutorials</description>
             
             <item>
-                <title><![CDATA[Post prueba]]></title>
-                <link>https://innovationdent.com/blog/post-prueba</link>
-                <description><![CDATA[It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ]]></description>
-                <category><![CDATA[[object Object],[object Object],[object Object]]]></category>
+                <title><![CDATA[Cirugía oral y maxilofacial]]></title>
+                <link>https://innovationdent.com/blog/cirugia-oral-y-maxilofacial</link>
+                <description><![CDATA[Es una especialidad quirúrgica que incluye el diagnóstico, cirugía y tratamientos relacionados de un gran espectro de enfermedades...]]></description>
+                <category><![CDATA[[object Object]]]></category>
                 <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
                 <upDate>
-                    Mon, 26 Apr 2021 02:18:31 GMT
+                    Mon, 10 May 2021 18:39:46 GMT
                 </upDate>
                 <media:content url="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/Cover.jpg" medium="image" />
                 <content:encoded>
-                    <![CDATA[<h2 id="-qu-es-lorem-ipsum">¿Qué es Lorem Ipsum?</h2><p><strong>Lorem Ipsum</strong> es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde la década de 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer un libro de muestras tipográficas. Ha sobrevivido no solo a cinco siglos, sino también al salto a la composición tipográfica electrónica, permaneciendo vivo sin cambios. Se popularizó en la década de 1960 con el lanzamiento de hojas de Letraset que contienen pasajes de Lorem Ipsum y, más recientemente, con software de autoedición como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p><figure class="kg-card kg-image-card"><img src="https://s3-us-west-1.amazonaws.com/assets-innovation-dent/2021/04/1597175.jpeg" class="kg-image" alt></figure><h2 id="-por-qu-lo-usamos">¿Por qué lo usamos?</h2><p>Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página cuando mire su diseño. El punto de usar Lorem Ipsum es que tiene una distribución de letras más o menos normal, en lugar de usar 'Contenido aquí, contenido aquí', lo que hace que parezca un inglés legible. Muchos paquetes de autoedición y editores de páginas web ahora usan Lorem Ipsum como su modelo de texto predeterminado, y una búsqueda de 'lorem ipsum' revelará muchos sitios web aún en su infancia. Varias versiones han evolucionado a lo largo de los años, a veces por accidente, a veces a propósito (humor inyectado y cosas por el estilo).</p>]]>
+                    <![CDATA[<figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://images.unsplash.com/photo-1486049125644-f35e226a5e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE0fHxkZW50YWx8ZW58MHx8fHwxNjIwNjcxODU1&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" class="kg-image" alt="Foto de mano con jeringa e invisalign" srcset="https://images.unsplash.com/photo-1486049125644-f35e226a5e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE0fHxkZW50YWx8ZW58MHx8fHwxNjIwNjcxODU1&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=600 600w, https://images.unsplash.com/photo-1486049125644-f35e226a5e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE0fHxkZW50YWx8ZW58MHx8fHwxNjIwNjcxODU1&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1000 1000w, https://images.unsplash.com/photo-1486049125644-f35e226a5e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE0fHxkZW50YWx8ZW58MHx8fHwxNjIwNjcxODU1&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1600 1600w, https://images.unsplash.com/photo-1486049125644-f35e226a5e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE0fHxkZW50YWx8ZW58MHx8fHwxNjIwNjcxODU1&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2400 2400w" sizes="(min-width: 720px) 720px"><figcaption><a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">F</a>oto de mano con jeringa e invisalign</figcaption></figure><p>Es una especialidad quirúrgica que incluye el diagnóstico, cirugía y tratamientos relacionados de un gran espectro de enfermedades, heridas y aspectos estéticos de la boca, dientes, cara, cabeza y cuello, los procedimientos más comunes son Exodoncia de cordales, dientes incluidos y pacientes patologías ortognáticas como clase II y clase III.</p>]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title><![CDATA[Rehabilitación]]></title>
+                <link>https://innovationdent.com/blog/rehabilitacion</link>
+                <description><![CDATA[null]]></description>
+                <category><![CDATA[[object Object]]]></category>
+                <dc:creator><![CDATA[Innovation Dent]]></dc:creator>
+                <upDate>
+                    Mon, 10 May 2021 18:36:07 GMT
+                </upDate>
+                <media:content url="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/Cover.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[<figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://images.unsplash.com/photo-1593022356769-11f762e25ed9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGRlbnRhbHxlbnwwfHx8fDE2MjA2NzE4NTU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" class="kg-image" alt="Foto de un prototipo de prótesis dental" srcset="https://images.unsplash.com/photo-1593022356769-11f762e25ed9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGRlbnRhbHxlbnwwfHx8fDE2MjA2NzE4NTU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=600 600w, https://images.unsplash.com/photo-1593022356769-11f762e25ed9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGRlbnRhbHxlbnwwfHx8fDE2MjA2NzE4NTU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1000 1000w, https://images.unsplash.com/photo-1593022356769-11f762e25ed9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGRlbnRhbHxlbnwwfHx8fDE2MjA2NzE4NTU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1600 1600w, https://images.unsplash.com/photo-1593022356769-11f762e25ed9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGRlbnRhbHxlbnwwfHx8fDE2MjA2NzE4NTU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2400 2400w" sizes="(min-width: 720px) 720px"><figcaption><a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">F</a>oto de un prototipo de prótesis dental</figcaption></figure><p>La <strong>rehabilitación oral</strong> es la parte de la <a href="https://es.wikipedia.org/wiki/Odontolog%C3%ADa">Odontología</a> encargada de la <a href="https://es.wikipedia.org/wiki/Restauraci%C3%B3n">restauración</a>; es decir, devuelve la función <a href="https://es.wikipedia.org/wiki/Est%C3%A9tica">estética</a> y armonía oral mediante <a href="https://es.wikipedia.org/wiki/Pr%C3%B3tesis_dental">prótesis dentales</a> de pérdidas de <a href="https://es.wikipedia.org/wiki/Dientes">dientes</a>, grandes destrucciones o de solucionar problemas estéticos, siempre buscando una <a href="https://es.wikipedia.org/w/index.php?title=Oclusi%C3%B3n&amp;action=edit&amp;redlink=1">oclusión</a> y función correcta.</p>]]>
                 </content:encoded>
             </item>
         

@@ -3,13 +3,19 @@
             <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
                 <loc>https://innovationdent.com</loc>
-                <lastmod>Wed, 28 Apr 2021 03:57:34 GMT</lastmod>
+                <lastmod>Mon, 10 May 2021 18:43:57 GMT</lastmod>
                 <priority>1.0</priority>
             </url>
             
             <url>
-                <loc>https://innovationdent.com/blog/post-prueba</loc>
-                <lastmod>Mon, 26 Apr 2021 02:18:31 GMT</lastmod>
+                <loc>https://innovationdent.com/blog/cirugia-oral-y-maxilofacial</loc>
+                <lastmod>Mon, 10 May 2021 18:39:46 GMT</lastmod>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>https://innovationdent.com/blog/rehabilitacion</loc>
+                <lastmod>Mon, 10 May 2021 18:36:07 GMT</lastmod>
                 <priority>0.80</priority>
             </url>
         

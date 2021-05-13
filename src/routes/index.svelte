@@ -1,8 +1,7 @@
 <script>
 	import Banner from '@components/Banner.svelte'
 	import Services from '@components/Services.svelte'
-	import CarouselBlog from '@components/CarouselBlog.svelte'
-	import Experiences from '@components/Experiences.svelte'
+	import logoDentika from '@static/logo-dentika.jpg'
 </script>
 
 <svelte:head>
@@ -22,5 +21,18 @@
 
 <Banner />
 <Services />
-<CarouselBlog />
-<Experiences />
+<section class="content">
+	<h1 class="title">Nuestros aliados</h1>
+	<figure>
+		<img src={logoDentika} alt="Logo Dentika">
+	</figure>
+</section>
+
+<style>
+	figure {
+		padding: 0 35px;
+	}
+	img {
+		max-width: 250px;
+	}
+</style>

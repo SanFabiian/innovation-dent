@@ -63,7 +63,7 @@
 	.btn-go-back {
 		position: absolute;
 		top: 50px;
-		left: 0;
+		left: 20px;
 		display: flex;
 		justify-content: center;
 		align-items: center;

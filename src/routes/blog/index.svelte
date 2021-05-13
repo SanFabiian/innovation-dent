@@ -50,8 +50,6 @@
 </svelte:head>
 
 <section class="content">
-	<h1>Blog</h1>
-
 	<div class="first-post">
 		<figure>
 			<img src="{firstPost[0].image}" alt="{firstPost[0].slug}">
