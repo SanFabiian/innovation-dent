@@ -19,8 +19,8 @@
         margin: 35px 0;
         width: 100%;
     }
-    img {
-        width: 100%;
+    figure img {
+        width: 200px;
         max-width: 220px;
     }
     h2 {
