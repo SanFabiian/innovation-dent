@@ -46,13 +46,14 @@
         </picture>
       </figure>
       <div class="specialist-desc">
-        <h2>Dra. Mónica Fonseca</h2>
+        <h2>Dra. Mónica Fonseca Cano</h2>
         <p>
           Ortodoncista con más de 10 años de experiencia en la atención de casos
-          complejos, Orquirurgicos, paciente con recidivas y raíces cortas y
-          periodonto disminuido más de 1000 casos exitosos respaldan nuestra
-          experiencia
+          complejos, Ortoquirurgicos, paciente con recidivas, raíces cortas y
+          periodonto disminuido.
         </p>
+        <p>Más de 1000 casos exitosos respaldan nuestra
+          experiencia.</p>
         <h3>Estudios</h3>
         <ul>
           <li>Odontóloga del Colegio Odontológico Colombiano</li>
@@ -62,7 +63,7 @@
             salud en el trabajo
           </li>
           <li>
-            Certificación en invisalign doctor, Smartee, Mini Tornillos,
+            Certificación en Invisalign doctor, Smartee, Mini Tornillos,
             Autoligado Pitts 21, Damon System, filosofía MEAW, planeación
             digital DSD.
           </li>
@@ -79,10 +80,11 @@
         <h2>Dr. Alex Bayona Marin</h2>
         <p>
           Ortodoncista con más de 10 años de experiencia en la atención de casos
-          complejos, Orquirurgicos, paciente con recidivas y raíces cortas y
-          periodonto disminuido más de 1000 casos exitosos respaldan nuestra
-          experiencia.
+          complejos, Ortoquirurgicos, paciente con recidivas, raíces cortas y
+          periodonto disminuido.
         </p>
+        <p>Más de 1000 casos exitosos respaldan nuestra
+          experiencia.</p>
         <h3>Estudios</h3>
         <ul>
           <li>Odontólogo de la Pontificia Universidad Javeriana</li>
@@ -91,7 +93,7 @@
             Diplomado en estética dental Federación Odontológica Colombiana
           </li>
           <li>
-            Certificación en invisalign doctor, Smartee, Mini Tornillos,
+            Certificación en Invisalign doctor, Smartee, Mini Tornillos,
             Autoligado Pitts 21, Damon System, filosofía MEAW, planeación
             digital DSD.
           </li>
@@ -126,7 +128,10 @@
   .specialist-desc h2,
   .specialist-desc h3 {
     text-align: center;
-	color: var(--green);
+	  color: var(--green);
+  }
+  .specialist-desc h2 {
+    font-size: var(--size-subtitle);
   }
   .specialist-desc h3 {
 	text-align: left;

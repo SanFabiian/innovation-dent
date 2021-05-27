@@ -1,10 +1,11 @@
 <script>
     export let slug
     export let img
+    export let service
 </script>
 <a href={`blog/${slug}`}>
     <figure><img src="{img}" alt=""></figure>
-    <h2>{slug.replace(/-/g ,' ')}</h2>
+    <h2>{service}</h2>
 </a>
 
 <style>
@@ -25,6 +26,9 @@
     }
     h2 {
         font-size: var(--size-subtitle);
-        text-transform: capitalize;
+        text-transform: lowercase;
+    }
+    h2::first-letter {
+        text-transform: uppercase;
     }
 </style>

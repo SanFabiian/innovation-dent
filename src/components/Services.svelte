@@ -8,10 +8,10 @@
 <section class="content">
     <h1 class="title">Especialidades</h1>
     <div class="wrap">
-        <Service slug="ortodoncia" img={ortodoncia} />
-        <Service slug="endodoncia" img={endodoncia} />
-        <Service slug="periodoncia" img={periodoncia} />
-        <Service slug="diseno-de-sonrisa" img={diseno} />
+        <Service service="Ortodoncia" slug="ortodoncia" img={ortodoncia} />
+        <Service service="endodoncia" slug="endodoncia" img={endodoncia} />
+        <Service service="periodoncia" slug="periodoncia" img={periodoncia} />
+        <Service service="Diseño de sonrisa" slug="diseno-de-sonrisa" img={diseno} />
     </div>
 </section>
 
