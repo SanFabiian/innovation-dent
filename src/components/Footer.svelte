@@ -34,12 +34,14 @@
       </div>
     </section>
     <section class="locate">
-        <h2 class="subtitle">Ubicanos</h2>
+      <h2 class="subtitle">Ubícanos</h2>
+      <ul>
         <li>Calle 23 # 66 - 46</li>
-        <li>Clinica Universitaria Colombia</li>
+        <li>Clínica Universitaria Colombia</li>
         <li>Consultorio 923</li>
         <li>Barrio el salitre</li>
         <li>Bogotá, Colombia</li>
+      </ul>
     </section>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.13878919953!2d-74.106221269375!3d4.648176434965087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a51e7ce26b1%3A0x94758a837396047a!2sCl%C3%ADnica%20Universitaria%20Colombia!5e0!3m2!1ses-419!2sco!4v1617390734721!5m2!1ses-419!2sco"
@@ -60,7 +62,7 @@
   }
   .locate,
   .contact {
-    padding: 30px 15px;
+    padding: 30px;
   }
   .redes {
     display: flex;
@@ -68,7 +70,7 @@
     padding: 10px 0;
   }
   .redes a {
-      margin-right: 10px;
+    margin-right: 10px;
   }
   a img {
     width: 30px;
@@ -106,7 +108,12 @@
     width: 130px;
   }
   li::marker {
-      color: var(--yellow);
+    color: var(--yellow);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   @media (min-width: 600px) {
     .content {

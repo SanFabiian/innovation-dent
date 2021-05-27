@@ -1,6 +1,7 @@
 <script>
-    import Services from '@components/Services.svelte'
+  import Services from "@components/Services.svelte";
 </script>
+
 <svelte:head>
   <title>Especialidades Innovation Dent</title>
   <meta
@@ -25,7 +26,7 @@
   <meta name="fb:app_id" content="InnovationDentOficial" />
 </svelte:head>
 <section class="content">
-    <h1>Especialidades</h1>
-    <p>Nos especializamos en temas como:</p>
-    <Services />
+  <h1>Especialidades</h1>
+  <p>Nos especializamos en temas como:</p>
+  <Services />
 </section>

@@ -1,5 +1,5 @@
 <script>
-    import logoDentika from '@static/logo-dentika.jpg'
+  import logoDentika from "@static/logo-dentika.jpg";
 </script>
 
 <svelte:head>
@@ -27,18 +27,26 @@
 </svelte:head>
 
 <div class="content">
-    <h1>Financiación</h1>
-    <p>En Innovation Dent contamos con un aliado financiero, Dentika hace más fácil acceder al tratamiento que siempre has soñado.</p>
-    <figure>
-        <img src="{logoDentika}" alt="">
-    </figure>
+  <h1>Financiación</h1>
+  <p>
+    En Innovation Dent contamos con un aliado financiero, Dentika hace más fácil
+    acceder al tratamiento que siempre has soñado.
+  </p>
+  <figure>
+    <img src={logoDentika} alt="" />
+  </figure>
 </div>
 
 <style>
-    figure {
-        padding: 0 35px;
-    }
-    img {
-        max-width: 300px;
-    }
+  .content {
+    padding: 35px;
+  }
+  figure {
+    padding: 0 35px;
+  }
+  img {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+  }
 </style>

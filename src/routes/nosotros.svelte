@@ -31,11 +31,10 @@
   <div class="nosotros-desc">
     <h1>Nosotros</h1>
     <p>
-      Somos un grupo de especialistas con más de 15 años de experiencia, en la
-      atención de todas las áreas de la odontología, destacándonos por
-      diagnosticar de manera integral y multidisciplinaria a todos nuestros
-      pacientes, brindando seguridad y confianza en el desarrollo de todos los
-      tratamientos.
+      Somos un grupo de especialistas con más de <b>15 años</b> de experiencia, en
+      la atención de todas las áreas de la odontología, destacándonos por diagnosticar
+      de manera integral y multidisciplinaria a todos nuestros pacientes, brindando
+      seguridad y confianza en el desarrollo de todos los tratamientos.
     </p>
   </div>
   <ul class="specialists">
@@ -48,12 +47,11 @@
       <div class="specialist-desc">
         <h2>Dra. Mónica Fonseca Cano</h2>
         <p>
-          Ortodoncista con más de 10 años de experiencia en la atención de casos
-          complejos, Ortoquirurgicos, paciente con recidivas, raíces cortas y
-          periodonto disminuido.
+          Ortodoncista con más de <b>10 años</b> de experiencia en la atención de
+          casos complejos, Ortoquirurgicos, paciente con recidivas, raíces cortas
+          y periodonto disminuido.
         </p>
-        <p>Más de 1000 casos exitosos respaldan nuestra
-          experiencia.</p>
+        <p>Más de 1000 casos exitosos respaldan nuestra experiencia.</p>
         <h3>Estudios</h3>
         <ul>
           <li>Odontóloga del Colegio Odontológico Colombiano</li>
@@ -79,12 +77,11 @@
       <div class="specialist-desc">
         <h2>Dr. Alex Bayona Marin</h2>
         <p>
-          Ortodoncista con más de 10 años de experiencia en la atención de casos
-          complejos, Ortoquirurgicos, paciente con recidivas, raíces cortas y
-          periodonto disminuido.
+          Ortodoncista con más de <b>10 años</b> de experiencia en la atención de
+          casos complejos, Ortoquirurgicos, paciente con recidivas, raíces cortas
+          y periodonto disminuido.
         </p>
-        <p>Más de 1000 casos exitosos respaldan nuestra
-          experiencia.</p>
+        <p>Más de 1000 casos exitosos respaldan nuestra experiencia.</p>
         <h3>Estudios</h3>
         <ul>
           <li>Odontólogo de la Pontificia Universidad Javeriana</li>
@@ -108,9 +105,6 @@
     margin-bottom: 30px;
     padding: 0 20px;
   }
-  p {
-    text-align: justify;
-  }
   .specialists {
     margin: 0;
   }
@@ -128,35 +122,32 @@
   .specialist-desc h2,
   .specialist-desc h3 {
     text-align: center;
-	  color: var(--green);
+    color: var(--green);
   }
   .specialist-desc h2 {
-    font-size: var(--size-subtitle);
+    font-size: var(--size-text);
   }
   .specialist-desc h3 {
-	text-align: left;
+    text-align: left;
   }
   .specialist-desc ul {
     padding: 0;
   }
   .specialist-desc li {
     margin-bottom: 20px;
-	list-style: initial;
-	font-size: var(--size-text);
-  }
-  .specialist-desc li::marker {
-	font-size: var(--size-subtitle);
-	color: var(--yellow);
+    list-style: initial;
+    font-size: var(--size-text);
+    line-height: 3rem;
   }
   @media (min-width: 768px) {
     .specialist {
       flex-direction: row;
     }
-	.specialist-desc {
-		margin-left: 30px;
-	}
-	.specialist-desc li {
-    	margin-bottom: 10px;
-	}
+    .specialist-desc {
+      margin-left: 30px;
+    }
+    .specialist-desc li {
+      margin-bottom: 10px;
+    }
   }
 </style>

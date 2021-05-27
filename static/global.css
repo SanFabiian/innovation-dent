@@ -1,242 +1,265 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 :root {
-	--blue: #1f3d59;
-	--green: #61b9be;
-	--yellow: #ffc933;
-	--white: #FFF;
-	--grey: #888888;
-	--grey-bg: #F5f5f5;
-	--color-text: #464646;
-	--font-yellowtail: 'Yellowtail', cursive;
-	--font-maven: 'Maven Pro', sans-serif;
-	--size-title: 2.5rem;
-	--size-subtitle: 2rem;
-	--size-text: 1.6rem;
-	--size-mintext: 1.2rem;
-	--gap: 15px;
-	--gradient: linear-gradient(var(--green), transparent), linear-gradient(90deg, #6197be, transparent), linear-gradient(-90deg, #61b0be, transparent )
+  --blue: #1f3d59;
+  --green: #61b9be;
+  --yellow: #ffc933;
+  --white: #fff;
+  --grey: #888888;
+  --grey-bg: #f5f5f5;
+  --color-text: #464646;
+  --font-yellowtail: "Yellowtail", cursive;
+  --font-maven: "Maven Pro", sans-serif;
+  --size-title: 2.5rem;
+  --size-subtitle: 2.2rem;
+  --size-text: 1.8rem;
+  --size-mintext: 1.4rem;
+  --gap: 15px;
+  --gradient: linear-gradient(var(--green), transparent),
+    linear-gradient(90deg, #6197be, transparent),
+    linear-gradient(-90deg, #61b0be, transparent);
 }
-h2, h3, h4, h5, h6, p, a, b, ul, li, span {
-	font-family: var(--font-maven);
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+b,
+ul,
+li,
+span {
+  font-family: var(--font-maven);
+}
+li::marker {
+  color: var(--yellow);
+  font-size: 30px;
+}
+p,
+.paragraph {
+  font-size: var(--size-text);
+  line-height: 3rem;
+  text-align: justify;
 }
 .title {
-	color: var(--blue);
-	font-family: var(--font-yellowtail);
-	font-size: 4rem;
-	font-weight: normal;
-	text-align: center;
+  color: var(--blue);
+  font-family: var(--font-yellowtail);
+  font-size: 4rem;
+  font-weight: normal;
+  text-align: center;
 }
 .subtitle {
-	color: var(--green);
-	font-family: var(--font-maven);
+  color: var(--green);
+  font-family: var(--font-maven);
+  font-size: var(--size-subtitle);
 }
 .d-none {
-	display: none;
+  display: none;
 }
 .btn {
-	display: block;
-	min-width: 120px;
-	max-width: 200px;
-	padding: 5px 20px;
-	margin: 10px 0;
-	border-radius: 30px;
-	font-size: 16px;
-	font-family: var(--font-maven);
-	text-align: center;
-	text-decoration: none;
+  display: block;
+  min-width: 120px;
+  max-width: 200px;
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: var(--font-maven);
+  text-align: center;
+  text-decoration: none;
 }
 .btn-primary {
-	background: var(--yellow);
-	color: var(--white);
-	border: solid 1px var(--yellow);
+  background: var(--yellow);
+  color: var(--white);
+  border: solid 1px var(--yellow);
 }
 .btn-primary:active {
-	background: var(--white);
-	color: var(--yellow);
-	border: solid 1px var(--yellow);
+  background: var(--white);
+  color: var(--yellow);
+  border: solid 1px var(--yellow);
 }
 .btn-secondary {
-	background: transparent;
-	color: var(--white);
-	border: solid 1px var(--white);
+  background: transparent;
+  color: var(--white);
+  border: solid 1px var(--white);
 }
 .btn-secondary:active {
-	background: var(--white);
-	color: var(--green);
+  background: var(--white);
+  color: var(--green);
 }
 main {
-	margin-top: 65px;
+  margin-top: 65px;
 }
 
 h1 {
-	padding: 20px;
-	color: var(--yellow);
-	font-family: var(--font-yellowtail);
-	font-size: calc(var(--size-title) * 2);
-	font-weight: normal;
-	text-align: center;
-	line-height: 35px;
+  padding: 20px;
+  color: var(--yellow);
+  font-family: var(--font-yellowtail);
+  font-size: calc(var(--size-title) * 2);
+  font-weight: normal;
+  text-align: center;
+  line-height: 50px;
 }
 .content {
-	position: relative;
-	padding-bottom: 30px;
+  position: relative;
+  padding-bottom: 30px;
 }
 .kg-width-full {
-	grid-row: 1;
+  grid-row: 1;
 }
 .content h2 {
-	font-size: var(--size-title);
-	margin: 15px 0;
+  font-size: var(--size-title);
+  margin: 15px 0;
 }
 .content h3 {
-	color: var(--blue);
-	font-size: var(--size-subtitle);
-	margin: 10px 0;
-	padding: 0 20px;
+  color: var(--blue);
+  font-size: var(--size-text);
+  margin: 10px 0;
+  padding: 0 20px;
 }
 .content h4 {
-	color: var(--blue);
-	font-size: var(--size-text);
-	margin: 10px 0;
-	padding: 0 20px;
-}
-.content p {
-	font-size: var(--size-text);
-	padding: 10px 20px;
-}
-.content strong {
-	font-size: var(--size-text);
+  color: var(--blue);
+  font-size: var(--size-text);
+  margin: 10px 0;
+  padding: 0 20px;
 }
 .content ul {
-	margin-left: 30px;
-	padding: 0 20px;
+  margin-left: 30px;
+  padding: 0 20px;
 }
 .content li {
-	font-size: var(--size-text);
+  font-size: var(--size-text);
 }
 .content figure img {
-	width: 100%;
+  width: 100%;
 }
 .tag {
-    display: inline-flex;
-	margin-right: 5px;
-    padding: 2px 5px;
-    border-radius: 23px;
-	font-size: 1.3rem;
-	font-family: var(--font-maven);
+  display: inline-flex;
+  margin-right: 5px;
+  padding: 2px 5px;
+  border-radius: 23px;
+  font-size: 1.3rem;
+  font-family: var(--font-maven);
 }
 .ortodoncia {
-	background: #C5E9FF;
-    color: #5095FA;
+  background: #c5e9ff;
+  color: #5095fa;
 }
 .estetica {
-	background: #d8f5ab;
-    color: #94a776;
+  background: #d8f5ab;
+  color: #94a776;
 }
 .cuidados {
-	background: #d1c5fc;
-    color: #6b618d;
+  background: #d1c5fc;
+  color: #6b618d;
 }
 .get-content figure:first-child img {
-	width: 100%;
-	max-width: initial;
-	max-height: 500px;
-	object-fit: contain;
+  width: 100%;
+  max-width: initial;
+  max-height: 500px;
+  object-fit: contain;
 }
 figure {
-	position: relative;
+  position: relative;
 }
 figcaption {
-	position: absolute;
-	right: 0;
-	bottom: 2px;
-	left: 50%;
-	width: 90%;
-	max-width: 680px;
-	padding: 5px 10px;
-	font-family: var(--font-maven);
-	font-size: 14px;
-	color: var(--grey-bg);
-	background: rgba(0 0 0 / .5);
-    transform: translateX(-50%);
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  display: none;
+  left: 50%;
+  width: 90%;
+  max-width: 680px;
+  padding: 5px 10px;
+  font-family: var(--font-maven);
+  font-size: 14px;
+  color: var(--grey-bg);
+  background: rgba(0 0 0 / 0.5);
+  transform: translateX(-50%);
 }
 figcaption a {
-	color: var(--grey-bg);
+  color: var(--grey-bg);
 }
 .get-content p {
-	font-size: 2rem;
-	line-height: 3rem;
-	padding: 20px;
-	padding-bottom: 0;
-	text-align: justify;
+  padding: 20px;
+  padding-bottom: 0;
 }
-.get-content h2,.get-content h3,.get-content h4 {
-	margin: 20px auto;
-	color: var(--green);
+.get-content h2,
+.get-content h3,
+.get-content h4 {
+  margin: 20px auto;
+  color: var(--green);
 }
 .get-content h2 {
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 50px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
 }
 .get-content figure {
-	text-align: center;
-	margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .get-content figure img {
-	width: 90%;
+  width: 90%;
 }
 .get-content hr {
-	margin: 50px auto;
-	width: 200px;
-	border-bottom: solid 1px var(--blue);
-	border-top: none;
+  margin: 50px auto;
+  width: 200px;
+  border-bottom: solid 1px var(--blue);
+  border-top: none;
 }
 .get-content li {
-	font-size: 2rem;
-	line-height: 3rem;
+  font-size: var(--size-text);
+  line-height: 3rem;
 }
 .get-content h4 {
-	font-size: 2.2rem;
-	color: var(--blue);
+  font-size: 2.2rem;
+  color: var(--blue);
 }
-@media(min-width: 768px) {
-	.get-content p {
-		max-width: 680px;
-		margin: 0 auto;
-	}
-	.get-content h2,.get-content h3,.get-content h4,.get-content ul {
-		max-width: 680px;
-		margin: 0 auto;
-	}
-	.get-content ul {
-		padding-left: 70px;
-	}
-	.get-content h3 {
-		font-size: 2.5rem;
-		padding: 20px 0;
-		margin: 0 auto;
-		text-transform: uppercase;
-	}
-	.get-content figure {
-		position: relative;
-	}
-	.get-content figure img {
-		width: 100%;
-		max-width: 680px;
-	}
+.get-content a {
+  color: var(--blue);
+  font-style: oblique;
+}
+@media (min-width: 768px) {
+  .get-content p {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .get-content h2,
+  .get-content h3,
+  .get-content h4,
+  .get-content ul {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .get-content ul {
+    padding-left: 70px;
+  }
+  .get-content h3 {
+    font-size: 2.5rem;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  .get-content figure {
+    position: relative;
+  }
+  .get-content figure img {
+    width: 100%;
+    max-width: 680px;
+  }
 }
 @media (min-width: 1024px) {
-	.content {
-		max-width: 1100px;
-		margin: 0 auto;
-	}
+  .content {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
 }
