@@ -5,7 +5,13 @@
 </script>
 
 <a href={`blog/${slug}`}>
-  <figure><img src={img} alt="" /></figure>
+  <figure>
+    <img
+      src={img}
+      alt={`Imagen representativa del servicio de ${service}`}
+      width="200"
+    />
+  </figure>
   <h2 class="subtitle">{service}</h2>
 </a>
 

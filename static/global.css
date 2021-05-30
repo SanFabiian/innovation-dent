@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-maven);
 }
 html {
   font-size: 62.5%;
@@ -25,19 +26,6 @@ html {
   --gradient: linear-gradient(var(--green), transparent),
     linear-gradient(90deg, #6197be, transparent),
     linear-gradient(-90deg, #61b0be, transparent);
-}
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-b,
-ul,
-li,
-span {
-  font-family: var(--font-maven);
 }
 li::marker {
   color: var(--yellow);
@@ -167,26 +155,8 @@ h1 {
   max-height: 500px;
   object-fit: contain;
 }
-figure {
-  position: relative;
-}
 figcaption {
-  position: absolute;
-  right: 0;
-  bottom: 2px;
   display: none;
-  left: 50%;
-  width: 90%;
-  max-width: 680px;
-  padding: 5px 10px;
-  font-family: var(--font-maven);
-  font-size: 14px;
-  color: var(--grey-bg);
-  background: rgba(0 0 0 / 0.5);
-  transform: translateX(-50%);
-}
-figcaption a {
-  color: var(--grey-bg);
 }
 .get-content p {
   padding: 20px;

@@ -5,7 +5,7 @@
   }
 </script>
 
-<button class:open on:click={btnOpen}>
+<button type="button" class:open on:click={btnOpen} aria-label="Botón del menu">
   <svg width="28" height="24">
     <line id="top" x1="0" y1="2" x2="32" y2="2" />
     <line id="middle" x1="0" y1="12" x2="24" y2="12" />
@@ -17,7 +17,7 @@
   svg {
     min-height: 24px;
     transition: transform 0.3s ease-in-out;
-    color: var(--white);
+    color: var(--dark-green);
   }
   svg line {
     stroke: currentColor;

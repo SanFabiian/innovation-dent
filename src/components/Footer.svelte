@@ -10,12 +10,12 @@
   <section class="content">
     <section class="contact">
       <figure>
-        <img src={logo} alt="Logo innovarion Dent a color" />
+        <img src={logo} width="130" alt="Logo innovarion Dent a color" />
       </figure>
       <h2 class="subtitle">Contáctanos</h2>
       <div class="redes">
         <a href="tel:573125070279" class="icon"
-          ><img src={call} alt="icono de llamada" /></a
+          ><img src={call} width="30" alt="icono de llamada" /></a
         >
         <a
           href="https://www.instagram.com/orto_innovation/"
@@ -23,7 +23,7 @@
           rel="noopener"
           on:click={analytics("instagram")}
         >
-          <img src={instagram} alt="Logo de Instagram" />
+          <img src={instagram} width="30" alt="Logo de Instagram" />
         </a>
         <a
           href="https://www.instagram.com/orto_innovation/"
@@ -31,7 +31,7 @@
           rel="noopener"
           on:click={analytics("facebook")}
         >
-          <img src={facebook} alt="Logo de Facebook " />
+          <img src={facebook} width="30" alt="Logo de Facebook " />
         </a>
       </div>
     </section>
@@ -101,7 +101,7 @@
     align-items: center;
     height: 30px;
     padding: 10px;
-    background: var(--green);
+    background: var(--dark-green);
     color: var(--white);
     font-family: var(--font-maven);
     font-size: var(--size-mintext);

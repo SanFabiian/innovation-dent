@@ -1,8 +1,3 @@
-<script>
-  import testimonyJong from "@static/experiencia-joven-tratamiento-dental.mp4";
-  import testimonyAdult from "@static/experiencia-adulto-tratamiento-dental.mp4";
-</script>
-
 <svelte:head>
   <title>Testimonios Innovation Dent</title>
   <meta
@@ -31,12 +26,30 @@
   <h1>Nuestros pacientes</h1>
   <p>Acontinuación te mostramos algunas experiencias de nuestros pacientes.</p>
   <div class="testimony-wrap">
-    <video src={testimonyJong} poster="" controls>
-      <track default kind="captions" srclang="es" src={testimonyJong} />
+    <video
+      src="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/experiencia-joven-tratamiento-dental.mp4"
+      poster=""
+      controls
+    >
+      <track
+        default
+        kind="captions"
+        srclang="es"
+        src="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/experiencia-joven-tratamiento-dental.mp4"
+      />
       Tu navegador no admite el elemento <code>video</code>.
     </video>
-    <video src={testimonyAdult} poster="" controls>
-      <track default kind="captions" srclang="es" src={testimonyAdult} />
+    <video
+      src="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/experiencia-adulto-tratamiento-dental.mp4"
+      poster=""
+      controls
+    >
+      <track
+        default
+        kind="captions"
+        srclang="es"
+        src="https://assets-innovation-dent.s3-us-west-1.amazonaws.com/experiencia-adulto-tratamiento-dental.mp4"
+      />
       Tu navegador no admite el elemento <code>video</code>.
     </video>
   </div>

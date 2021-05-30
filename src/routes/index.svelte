@@ -30,7 +30,7 @@
 <section class="content">
   <h1 class="title">Nuestros aliados</h1>
   <figure>
-    <img src={logoDentika} alt="Logo Dentika" />
+    <img src={logoDentika} alt="Logo Dentika" width="250" />
   </figure>
 </section>
 

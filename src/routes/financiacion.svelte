@@ -33,7 +33,7 @@
     acceder al tratamiento que siempre has soñado.
   </p>
   <figure>
-    <img src={logoDentika} alt="" />
+    <img src={logoDentika} alt="Logo Dentika" />
   </figure>
 </div>
 
