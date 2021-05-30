@@ -20,6 +20,7 @@
         <a
           href="https://www.instagram.com/orto_innovation/"
           target="_blank"
+          rel="noopener"
           on:click={analytics("instagram")}
         >
           <img src={instagram} alt="Logo de Instagram" />
@@ -27,6 +28,7 @@
         <a
           href="https://www.instagram.com/orto_innovation/"
           target="_blank"
+          rel="noopener"
           on:click={analytics("facebook")}
         >
           <img src={facebook} alt="Logo de Facebook " />
@@ -34,12 +36,12 @@
       </div>
     </section>
     <section class="locate">
-      <h2 class="subtitle">Ubícanos</h2>
+      <h2 class="subtitle">Nuestra Sede</h2>
       <ul>
         <li>Calle 23 # 66 - 46</li>
-        <li>Clínica Universitaria Colombia</li>
+        <li>Clínica Universitaria Colombia Edificio Consultorios</li>
         <li>Consultorio 923</li>
-        <li>Barrio el salitre</li>
+        <li>Ciudad Salitre</li>
         <li>Bogotá, Colombia</li>
       </ul>
     </section>
@@ -51,7 +53,7 @@
     />
   </section>
 </footer>
-<div class="copy">Con 🤍 de Innovarion Dent para tu sonrisa</div>
+<div class="copy">Innovation Dent, con el 🤍 para tu sonrisa.</div>
 
 <style>
   footer {
