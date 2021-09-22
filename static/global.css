@@ -8,10 +8,10 @@ html {
   font-size: 62.5%;
 }
 :root {
-  --blue: #1f3d59;
-  --green: #61b9be;
-  --dark-green: #005f65;
-  --yellow: #ffc933;
+  --blue: #151515;
+  --green: #171717;
+  --dark-green: #151515;
+  --yellow: #f0da66;
   --white: #fff;
   --grey: #888888;
   --grey-bg: #f5f5f5;
@@ -26,6 +26,7 @@ html {
   --gradient: linear-gradient(var(--green), transparent),
     linear-gradient(90deg, #6197be, transparent),
     linear-gradient(-90deg, #61b0be, transparent);
+  --golden: linear-gradient(90deg, #905e02, #f0da66);
 }
 li::marker {
   color: var(--yellow);
@@ -38,14 +39,17 @@ p,
   text-align: justify;
 }
 .title {
-  color: var(--blue);
+  color: transparent;
+  background: var(--golden);
+  -webkit-background-clip: text;
   font-family: var(--font-yellowtail);
   font-size: 4rem;
   font-weight: normal;
   text-align: center;
 }
 .subtitle {
-  color: var(--dark-green);
+  color: transparent;
+  color: black;
   font-family: var(--font-maven);
   font-size: var(--size-subtitle);
 }
@@ -85,11 +89,14 @@ p,
 }
 main {
   margin-top: 65px;
+  min-height: 623px;
 }
 
 h1 {
   padding: 20px;
-  color: var(--yellow);
+  color: transparent;
+  background: var(--golden);
+  -webkit-background-clip: text;
   font-family: var(--font-yellowtail);
   font-size: calc(var(--size-title) * 2);
   font-weight: normal;

@@ -26,7 +26,7 @@
           <img src={instagram} width="30" alt="Logo de Instagram" />
         </a>
         <a
-          href="https://www.instagram.com/orto_innovation/"
+          href="https://www.facebook.com/InnovationDentOficial"
           target="_blank"
           rel="noopener"
           on:click={analytics("facebook")}
@@ -38,18 +38,18 @@
     <section class="locate">
       <h2 class="subtitle">Nuestra Sede</h2>
       <ul>
-        <li>Calle 23 # 66 - 46</li>
-        <li>Clínica Universitaria Colombia Edificio Consultorios</li>
-        <li>Consultorio 923</li>
-        <li>Ciudad Salitre</li>
+        <li>Calle 99 # 49-38</li>
+        <li>Centum Business</li>
+        <li>Consultorio 1504</li>
+        <li>Barrios Unidos</li>
         <li>Bogotá, Colombia</li>
       </ul>
     </section>
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.13878919953!2d-74.106221269375!3d4.648176434965087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a51e7ce26b1%3A0x94758a837396047a!2sCl%C3%ADnica%20Universitaria%20Colombia!5e0!3m2!1ses-419!2sco!4v1617390734721!5m2!1ses-419!2sco"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15905.888016215044!2d-74.0615667!3d4.6877335!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22fdc2caa1bf8c0e!2sCENTUM%20BUSINESS%20BUILDING!5e0!3m2!1ses-419!2sco!4v1632276967571!5m2!1ses-419!2sco"
+      title="Mapa del Edicicio Centum Busines"
       allowfullscreen=""
       loading="lazy"
-      title="Ubicación Consultorio Innovation Dent"
     />
   </section>
 </footer>
