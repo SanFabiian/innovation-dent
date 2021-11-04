@@ -41,7 +41,7 @@
         <li>Calle 99 # 49-38</li>
         <li>Centum Business</li>
         <li>Consultorio 1504</li>
-        <li>Barrios Unidos</li>
+        <li>Barrio La castellana</li>
         <li>Bogotá, Colombia</li>
       </ul>
     </section>
