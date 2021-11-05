@@ -18,7 +18,7 @@
           ><img src={call} width="30" alt="icono de llamada" /></a
         >
         <a
-          href="https://www.instagram.com/orto_innovation/"
+          href="https://www.instagram.com/innovation_dent/"
           target="_blank"
           rel="noopener"
           on:click={analytics("instagram")}
