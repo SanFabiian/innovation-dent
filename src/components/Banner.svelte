@@ -6,10 +6,12 @@
   onMount(() => {
     const nd = banner.querySelector("#carouselExampleControls");
     const carousel = new bootstrap.Carousel(nd, {
-      interval: 5000,
+      interval: 3500,
       wrap: true,
       keyboard: true,
-      touch: true,
+      touch: false,
+      ride: true,
+      pause: false,
     });
   });
 </script>
@@ -21,25 +23,25 @@
     data-bs-ride="carousel"
   >
     <div class="carousel-inner">
-      {#each dataBanners as banner, i}
+      {#each dataBanners as { name, alt }, i}
         <div class={i === 1 ? "carousel-item active" : "carousel-item"}>
           <picture>
             <source
               media="(min-width: 1200px)"
-              srcset={`https://assets-innovation-dent.s3.us-west-1.amazonaws.com/banners/1900/${banner.name}`}
+              srcset={`https://assets-innovation-dent.s3.us-west-1.amazonaws.com/banners/1900/${name}`}
             />
             <source
               media="(min-width: 1000px)"
-              srcset={`https://assets-innovation-dent.s3.us-west-1.amazonaws.com/banners/1000/${banner.name}`}
+              srcset={`https://assets-innovation-dent.s3.us-west-1.amazonaws.com/banners/1000/${name}`}
             />
             <img
-              src={`https://assets-innovation-dent.s3.us-west-1.amazonaws.com/banners/600/${banner.name}`}
-              alt={banner.alt}
+              src={`https://assets-innovation-dent.s3.us-west-1.amazonaws.com/banners/600/${name}`}
+              {alt}
               class="w-100"
             />
           </picture>
         </div>
-        {i++}
+        <span class="d-none">{i++}</span>
       {/each}
     </div>
     <button
