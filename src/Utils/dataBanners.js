@@ -1,5 +1,9 @@
 const dataBanners = [
   {
+    name: "portada.jpg",
+    alt: "Imagen de portada",
+  },
+  {
     name: "consultorio-1.jpg",
     alt: "Imagen del consultorio",
   },

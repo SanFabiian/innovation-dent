@@ -1,9 +1,5 @@
 <script>
   import { onMount } from "svelte";
-  import foto1900 from "@static/foto-principal1900.jpg";
-  import foto1000 from "@static/foto-principal1000.jpg";
-  import foto600 from "@static/foto-principal600.jpg";
-
   import dataBanners from "@utils/dataBanners.js";
 
   let banner;
